@@ -1,0 +1,5 @@
+.stage{
+    background-image: url(../assets/img/stage_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh
+}

@@ -19,14 +19,18 @@ body {
 .nav a {
   font-size: 1rem;
   color: #FFFFFF;
+  opacity: .8;
 }
 
 .nav a:hover {
-  border-bottom: 3px solid #FFCE00
+  border-bottom: 3px solid #FFCE00;
+  opacity: 1
+
 }
 
-.focus {
+.active{
   border-bottom: 3px solid #FFCE00;
+  opacity: 1 !important
 }
 
 .headet_text {
@@ -90,7 +94,7 @@ content {
  }
 
 .scroll_image{
-  height: 35rem;
+  height: 30rem;
 }
 
 .center {

@@ -1,14 +1,16 @@
 // Your variable overrides
 /* change the colors */
-$primary: rebeccapurple;
+$primary: #2A246D;
+$secondary:#7600FF;
 $danger: #dd0000;
 $success: lime;
 $warning: orange;
-$info: aqua;
+$info: #BC0E74;
+
 
 $body-bg: #f3f3f0;
-// $body-bg: #000;
-// $body-color: #111;
+$body-bg: #2A246D;
+$body-color: #7600FF;
 
 // Bootstrap and its default variables
 @import "../../node_modules/bootstrap/scss/bootstrap";

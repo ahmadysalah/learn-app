@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* width: 80%; */
+  margin: 0 auto;
+  font-family: Roboto;
+  background-image: url("../assets/img/image-bg.png");
+  background-repeat: no-repeat;
+  /* height: 480vh; */
+  /* background-size:100vw 150vh */
+}
+
+.nav {
+  margin: 0 auto;
+}
+
+.nav a {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.nav a:hover {
+  border-bottom: 3px solid #FFCE00
+}
+
+.focus {
+  border-bottom: 3px solid #FFCE00;
+}
+
+.headet_text {
+  font-family: Roboto;
+}
+
+.opacity {
+  opacity: .8;
+}
+
+content {
+  margin: 5rem 0 0 0;
+}
+
+.language_btn {
+  margin-top: -10px;
+}
+
+.burger_menu {
+  background-color: #333CA5;
+  /* background-image:url(../assets/svg/burger.svg); */
+  width: 80px;
+  align-self: flex-end;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 100% 0 0 100% / 50%;
+}
+
+.title_header {
+  width: 430px;
+  margin: 100px 0 0 150px;
+}
+
+.typography_3 {
+  font-size: 1.6rem;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #F20074 0%, #d1158c  30%, #7446AC  70%)}
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.btn-grad {
+   padding: 8px 60px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 40px;
+   display: block;
+   border-width:0
+ }
+
+ .download_tittle{
+   margin-top: 450px;
+ }
+
+.scroll_image{
+  height: 35rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+.w80{
+  width: 80%;
+}
+
+.contact_us{
+  width: 45%;
+}
+.footer {
+   margin-top: 5rem;
+   border-radius: 0 50px 0 50px
+}

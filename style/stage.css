@@ -18,6 +18,28 @@
 .course_container{
     margin-top: -3% !important
 }
-.coure_img{
-    width: 350px;
+.course_img{
+    width: 280px;
+}
+.rating_container{
+    margin: -1.5% 0 0 3%;
+}
+.box_statics{
+    background-image:url(../assets/svg/card_bg.svg);
+    width:110px;
+    border:.1px solid #FFFFFF;
+}
+.report_card{
+    margin-left: 1%;
+}
+.contenue_btn{
+    background-color:#EC6418;
+    border:1px solid #707070;
+    width: 25%;
+}
+h6{
+    font-size: .9rem;
+}
+p{
+    font-size: .8rem;
 }

@@ -3,3 +3,21 @@
     background-repeat: no-repeat;
     background-size: 100% 100vh
 }
+
+.return_button{
+    background-color: #4C478F;
+    width: 150px;
+    align-self: flex-end;
+    height: 80px;
+    border-width: 0px;
+    border-radius: 0 100% 100% 0 / 50%;
+    align-self:flex-start;
+    font-size:.9rem;
+    margin-top: -3% !important
+}
+.course_container{
+    margin-top: -3% !important
+}
+.coure_img{
+    width: 350px;
+}

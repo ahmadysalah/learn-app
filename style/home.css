@@ -5,17 +5,16 @@
 }
 
 body {
-  /* width: 80%; */
-  margin: 0 auto;
   font-family: Roboto;
   background-image: url("../assets/img/image-bg.png");
   background-repeat: no-repeat;
-  /* height: 480vh; */
-  /* background-size:100vw 150vh */
+  margin: 0;
 }
 
 .nav {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  max-width: 30rem;
+  min-width: 25rem;
 }
 
 .nav a {
@@ -28,16 +27,11 @@ body {
 .nav a:hover {
   border-bottom: 3px solid #FFCE00;
   opacity: 1
-
 }
 
-.active{
+.active {
   border-bottom: 3px solid #FFCE00;
   opacity: 1 !important
-}
-
-.headet_text {
-  font-family: Roboto;
 }
 
 .opacity {
@@ -52,6 +46,11 @@ content {
   margin-top: -10px;
 }
 
+.language_btn:hover, .burger_menu:hover {
+  transform: scale(1.2);
+  transition-duration: 500ms;
+}
+
 .burger_menu {
   background-color: #333CA5;
   /* background-image:url(../assets/svg/burger.svg); */
@@ -64,67 +63,84 @@ content {
 
 .title_header {
   width: 430px;
-  margin: 100px 0 0 150px;
+  margin: 7% 0 0 9%;
 }
 
 .typography_3 {
   font-size: 1.6rem;
 }
 
-.btn-grad {background-image: linear-gradient(to right, #F20074 0%, #d1158c  30%, #7446AC  70%)}
+.btn-grad {
+  background-image: linear-gradient(to right, #F20074 0%, #d1158c 30%, #7446AC 70%);
+}
 
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
-
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 .btn-grad {
-   padding: 8px 60px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   border-radius: 40px;
-   display: block;
-   border-width:0
- }
+  padding: 5px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 40px;
+  display: block;
+  border-width: 0
+}
 
- .download_tittle{
-   margin-top: 450px;
- }
+.download_tittle {
+  margin-top: 450px;
+}
 
-.scroll_image{
+.scroll_image {
   height: 30rem;
 }
 
 .center {
   margin: 0 auto;
 }
-.w80{
+
+.w80 {
   width: 80%;
 }
 
-.contact_us{
+.contact_us {
   width: 45%;
 }
+
 .footer {
-   margin-top: 5rem;
-   border-radius: 0 50px 0 50px
+  margin-top: 5rem;
+  border-radius: 0 50px 0 50px
 }
 
 @media only screen and (max-width: 600px) {
-  .nav  {
-   width: 50% !important;
+  body {
+    background-size: contain
+  }
+  .nav {
+    max-width: 2rem;
+    min-width: 5rem
   }
   .nav a {
     border-bottom: 1px solid #fff;
+    margin-top: .5rem;
   }
-  .logo{
-    width: 100px;
-    height: 100px;
-    margin: 50px 0 10px 100px;
+  .download_tittle {
+    margin-top: 2rem;
   }
+  .burger_menu {
+    margin-top: -rem;
   }
+  .language_btn {
+    margin-top: -.5rem;
+  }
+  .contact_us {
+    width: 90%;
+    height: 8rem;
+  }
+}

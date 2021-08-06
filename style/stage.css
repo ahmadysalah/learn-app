@@ -17,7 +17,7 @@
 }
 
 .course_container {
-    margin-top: -3% !important
+    margin-top: -3% !important;
 }
 
 .course_img {
@@ -220,11 +220,20 @@ p {
     width: 20rem;
 }
 
+.discription {
+    font-size: .9rem;
+    font-weight: lighter !important;
+    color: rgb(221, 216, 216);
+    width: 13rem;
+}
+
 @media only screen and (max-width: 600px) {
     .stage {
         background-image: url(../assets/svg/mobile_bg.svg);
         background-repeat: no-repeat;
         background-size: 100%
-        /* margin:-20px */
+    }
+    .course_container {
+        margin-top: 1rem !important;
     }
 }

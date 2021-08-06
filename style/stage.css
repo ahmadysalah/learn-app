@@ -43,3 +43,36 @@ h6{
 p{
     font-size: .8rem;
 }
+.table_course{
+    background-image: url('../assets//svg/table_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    height: 60vh;
+}
+.table_course::-webkit-scrollbar {
+    width: 12px;
+}
+
+.table_course::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #272A69;
+    border-radius: 10px;
+}
+
+.table_course::-webkit-scrollbar-thumb {
+    background-color:#FFCE00;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.table_index{
+    margin-left: 3%;
+}
+.box_rating{
+    background-image:url(../assets/svg/card_bg.svg);
+    width:45px;
+    height:45px;
+    /* border:.1px solid #FFFFFF; */
+}
+.lesson {
+    border-bottom: .01px solid #707070 !important  
+}

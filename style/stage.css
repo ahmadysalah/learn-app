@@ -163,10 +163,17 @@ align-items: center;
     background-image:url(../assets/svg/card_bg.svg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 50px;
   }
 
-  
+  .rate_student{
+      background-color: #252637;
+      border:5px solid #474A65;
+      padding:5px;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+  }
 @media only screen and (max-width: 600px) {
     .stage{
       background-image: url(../assets/svg/mobile_bg.svg);

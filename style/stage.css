@@ -5,7 +5,7 @@
 }
 
 .return_button{
-    background-color: #4C478F;
+    background:linear-gradient(#5A549D, #4B468F);
     width: 150px;
     align-self: flex-end;
     height: 80px;
@@ -67,6 +67,17 @@ p{
 .table_index{
     margin-left: 3%;
 }
+.lesson_embed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  62vh;
+    background-image: url('../assets//svg/table_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    margin-top: -5%;
+}
 .box_rating{
     background-image:url(../assets/svg/card_bg.svg);
     width:45px;
@@ -75,4 +86,13 @@ p{
 }
 .lesson {
     border-bottom: .01px solid #707070 !important  
+}
+.video_stream{
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }

@@ -68,6 +68,17 @@ content {
 
 .typography_3 {
   font-size: 1.6rem;
+  margin: 0;
+}
+
+.typography_4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.typography_5 {
+  font-size: .7rem;
+  margin: 0;
 }
 
 .btn-grad {
@@ -116,6 +127,33 @@ content {
 .footer {
   margin-top: 5rem;
   border-radius: 0 50px 0 50px
+}
+
+.popular_course {
+  width: 13rem;
+  margin: 2rem 1.5rem 2rem 0;
+  /* margin: 0 1rem; */
+}
+
+.courses_container {
+  overflow-x: scroll;
+  margin-bottom: 3rem;
+}
+
+.courses_container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.courses_container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #272A69;
+  border-radius: 10px;
+  margin: 0 5rem;
+}
+
+.courses_container::-webkit-scrollbar-thumb {
+  background-color: #FFCE00;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 600px) {

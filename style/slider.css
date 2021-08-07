@@ -4,7 +4,7 @@
     height: 292px;
     margin: 115px auto 0;
     margin-top: -3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .hi-btn {
@@ -55,7 +55,9 @@
     padding: 0;
     cursor: pointer;
     justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .hi-slide>ul>li>img {
@@ -75,10 +77,15 @@
 .hi_slide_active_container {
     display: flex;
     justify-content: center;
-    margin: -10% 0 1rem 0;
+    margin: -5% 0 1rem 0;
 }
 
 .active_biology {
     width: 15rem;
     text-align: center;
+}
+
+.text-center {
+    opacity: 0;
+    margin-top: -1.5rem;
 }

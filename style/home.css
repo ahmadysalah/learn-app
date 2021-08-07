@@ -93,7 +93,8 @@ content {
 }
 
 .btn-grad {
-  padding: 5px 32px;
+  padding: 5px 0;
+  width: 8rem;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -164,7 +165,8 @@ content {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-size: contain
+    background-size: 110%;
+    width: 107%;
   }
   .nav {
     max-width: 2rem;
@@ -186,5 +188,11 @@ content {
   .contact_us {
     width: 90%;
     height: 8rem;
+  }
+  .courses_container::-webkit-scrollbar-track {
+    margin: 0 .5rem;
+  }
+  .slide {
+    display: none;
   }
 }

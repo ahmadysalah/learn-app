@@ -9,6 +9,8 @@
     <link href="style/home.css" rel="stylesheet">
     <link href="style/stage.css" rel="stylesheet">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
+    <link href="style/slider.css" rel="stylesheet">
+
     <title>Learn-App</title>
 </head>
 
@@ -43,12 +45,52 @@
         <button type="button" class="burger_menu  text-white language_btn">AR</button>
     </div>
 
-    <div class="mt-5 w80 center">
-        <h1 class="display-6 text-white"> Choose your Stage</h1>
-        <div class="scroll_image"> -- </div>
+    <div class="w80 center">
+        <h1 class="display-6 text-white mb-5"> Choose your Stage</h1>
+        <div class="slide hi-slide">
+            <ul>
+                <li><img src="./assets/svg/biology_1.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology1</p>
+                </li>
+                <li><img src="./assets/svg/biology_2.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology2</p>
+                </li>
+                <li><img src="./assets/svg/biology_3.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology3</p>
+                </li>
+                <li><img src="./assets/svg/biology_4.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology4</p>
+                </li>
+                <li><img src="./assets/svg/biology_5.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology5</p>
+                </li>
+                <li><img src="./assets/svg/biology_6.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology6</p>
+                </li>
+                <li><img src="./assets/svg/biology_5.svg" alt="Img 2" />
+                    <p class="text-center">6th Biology7</p>
+                </li>
+            </ul>
+            <div class="hi_slide_active_container">
+                <img src="./assets/svg/biology_active.svg" class="active_biology" alt="Img 2" />
+            </div>
+            <div id="text_slider">
+                <p class="text-center">6th Biology1</p>
+            </div>
+            <div class="btn_slider_container">
+                <div class="hi-next hi-btn"></div>
+                <div class="hi-prev hi-btn"></div>
+            </div>
+        </div>
+    </div>
     </div>
     <content>
 
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.hislide.js"></script>
+<script>
+    $('.slide').hiSlide();
+</script>
 
 </html>

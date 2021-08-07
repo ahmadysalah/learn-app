@@ -8,6 +8,7 @@
     <link href="style/mainStyle/style.css" rel="stylesheet">
     <link href="style/home.css" rel="stylesheet">
     <link href="style/slider.css" rel="stylesheet">
+    <link href="style/sliderMain.css" rel="stylesheet">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
     <title>Learn-App</title>
 </head>
@@ -76,11 +77,38 @@
             </div>
         </div>
     </content>
+
+    <div class="sliderMain hi-slider_main" style="margin-top: 10%;">
+        <ul class="">
+            <li><img src="./assets/svg/slider_img_1 copy.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_2.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_1 copy.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_3.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_1 copy.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_2.svg" alt="Img 2" />
+            </li>
+            <li><img src="./assets/svg/slider_img_3.svg" alt="Img 2" />
+            </li>
+        </ul>
+
+        <div class="btn_slider_container">
+            <div class="hi-next hi-btn"></div>
+            <div class="hi-prev hi-btn"></div>
+        </div>
+    </div>
+    </div>
+
+
     <article class="w80 center">
-        <div class="scroll_image"></div>
+
         <div class="mt-5">
             <h1 class="display-6 text-white"> Choose your Stage</h1>
-            <div class="slide hi-slide">
+            <div class="slide hi-slide mt-5">
                 <ul>
                     <li><img src="./assets/svg/biology_1.svg" alt="Img 2" />
                         <p class="text-center">6th Biology1</p>
@@ -279,7 +307,9 @@
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/jquery.hislide.js"></script>
+<script type="text/javascript" src="js/jquery.hislideSlider.js"></script>
 <script>
+    $('.sliderMain').hiSlide()
     $('.slide').hiSlide();
 </script>
 

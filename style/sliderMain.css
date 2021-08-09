@@ -7,7 +7,7 @@
     margin-bottom: 7rem;
 }
 
-.hi-slider_main .hi-next:hover, .hi-slide .hi-prev:hover {
+.hi-slider_main .hi-next:hover, .hi-slider_main .hi-prev:hover {
     opacity: 1;
 }
 

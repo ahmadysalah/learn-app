@@ -8,6 +8,7 @@ body {
   font-family: Roboto;
   background-image: url("../assets/img/image-bg.png");
   background-repeat: no-repeat;
+  background-size: 100vw;
   margin: 0;
 }
 
@@ -19,23 +20,23 @@ body {
 
 .nav a {
   font-size: 1rem;
-  color: #FFFFFF;
-  opacity: .8;
+  color: #ffffff;
+  opacity: 0.8;
   height: 40px;
 }
 
 .nav a:hover {
-  border-bottom: 3px solid #FFCE00;
-  opacity: 1
+  border-bottom: 3px solid #ffce00;
+  opacity: 1;
 }
 
 .active {
-  border-bottom: 3px solid #FFCE00;
-  opacity: 1 !important
+  border-bottom: 3px solid #ffce00;
+  opacity: 1 !important;
 }
 
 .opacity {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 content {
@@ -46,13 +47,14 @@ content {
   margin-top: -10px;
 }
 
-.language_btn:hover, .burger_menu:hover {
+.language_btn:hover,
+.burger_menu:hover {
   transform: scale(1.2);
   transition-duration: 500ms;
 }
 
 .burger_menu {
-  background-color: #333CA5;
+  background-color: #333ca5;
   /* background-image:url(../assets/svg/burger.svg); */
   width: 80px;
   align-self: flex-end;
@@ -77,12 +79,12 @@ content {
 }
 
 .typography_5 {
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin: 0;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #F20074 0%, #d1158c 30%, #7446AC 70%);
+  background-image: linear-gradient(to right, #f20074 0%, #d1158c 30%, #7446ac 70%);
 }
 
 .btn-grad:hover {
@@ -102,7 +104,7 @@ content {
   color: white;
   border-radius: 40px;
   display: block;
-  border-width: 0
+  border-width: 0;
 }
 
 .download_tittle {
@@ -127,12 +129,13 @@ content {
 
 .footer {
   margin-top: 5rem;
-  border-radius: 0 50px 0 50px
+  border-radius: 0 50px 0 50px;
+  margin-bottom: -10rem;
 }
 
 .popular_course {
   width: 13rem;
-  margin: .5rem 1.5rem .5rem 0;
+  margin: 0.5rem 1.5rem 0.5rem 0;
   /* margin: 0 1rem; */
 }
 
@@ -146,13 +149,13 @@ content {
 }
 
 .courses_container::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #272A69;
+  -webkit-box-shadow: inset 0 0 6px #272a69;
   border-radius: 10px;
   margin: 0 5rem;
 }
 
 .courses_container::-webkit-scrollbar-thumb {
-  background-color: #FFCE00;
+  background-color: #ffce00;
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
@@ -163,23 +166,24 @@ content {
   height: 75vh;
 }
 
-.form input ,.form input:focus{
-  background-color:white
+.form input,
+.form input:focus {
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
   body {
-    background-size: 110%;
-    width: 107%;
+    background-size: 110vw;
+    width: 110%;
     margin-bottom: 8em;
   }
   .nav {
     max-width: 2rem;
-    min-width: 5rem
+    min-width: 5rem;
   }
   .nav a {
     border-bottom: 1px solid #fff;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
   .download_tittle {
     margin-top: 2rem;
@@ -188,16 +192,14 @@ content {
     margin-top: -rem;
   }
   .language_btn {
-    margin-top: -.5rem;
+    margin-top: -0.5rem;
   }
   .contact_us {
     width: 90%;
     height: 8rem;
+    margin-top: 2rem;
   }
   .courses_container::-webkit-scrollbar-track {
-    margin: 0 .5rem;
-  }
-  .slide {
-    display: none;
+    margin: 0 0.5rem;
   }
 }

@@ -1,5 +1,5 @@
 
-(function ($) {
+(function () {
 
     var slide = function (ele, options) {
         var states =
@@ -70,9 +70,9 @@
             move();
         }
 
-        function autoPlay() {
-            timer = setInterval(next, setting.interval);
-        }
+        // function autoPlay() {
+        //     timer = setInterval(next, setting.interval);
+        // }
     }
 
     $.fn.hiSlide = function (options) {

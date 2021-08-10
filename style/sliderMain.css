@@ -50,12 +50,14 @@
     background-image: url(../assets/svg/back_biology.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: 5;
 }
 
 .hi-slider_main .hi-prev {
     background-image: url(../assets/svg/next_biology.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: 5;
 }
 
 @media only screen and (max-width: 600px) {

@@ -9,6 +9,7 @@
     <link href="style/home.css" rel="stylesheet">
     <link href="style/slider.css" rel="stylesheet">
     <link href="style/sliderMain.css" rel="stylesheet">
+    <link href="style/rightMenue.css" rel="stylesheet">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
     <title>Learn-App</title>
 </head>
@@ -32,11 +33,30 @@
         </div>
     </header>
     <div class="d-flex flex-column w-100">
-        <button type="button" class="burger_menu flex-row align-items-center bg-info align-self-end">
-            <img src="./assets/svg/burger.svg" alt="" height="50px">
-        </button>
-        <button type="button" class="burger_menu  text-white language_btn">AR <img src="./assets/svg/earth-outline.svg"
-                width="20px" alt=""></button>
+        <div id="menuToggle" class="burger_menu bg-info">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Info</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </div>
+        <button type="button" class="burger_menu  text-white language_btn mt-1">AR <img
+                src="./assets/svg/earth-outline.svg" width="20px" alt=""></button>
     </div>
 
     <content>
@@ -100,8 +120,8 @@
 
 
     <article class="w80 center">
-        <h1 class="display-6 text-white"> Choose your Stage</h1>
         <div class="slide hi-slide">
+            <h1 class="display-6 text-white"> Choose your Stage</h1>
             <ul>
                 <li><img src="./assets/svg/biology_1.svg" alt="Img 2" />
                     <p class="text-center">6th Biology1</p>

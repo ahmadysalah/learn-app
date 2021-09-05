@@ -6,9 +6,12 @@
 
 body {
   background-image: url(../assets/img/bg.png);
+  background-size: cover;
   background-repeat: repeat;
   font-family: Roboto;
   margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 .home {
@@ -60,7 +63,6 @@ content {
 
 .burger_menu {
   background-color: #333ca5;
-  /* background-image:url(../assets/svg/burger.svg); */
   width: 80px;
   align-self: flex-end;
   height: 50px;
@@ -175,11 +177,11 @@ content {
   background-color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
-    background-size: 110vw;
-    width: 110%;
+    background-size: 110%;
     margin-bottom: 8em;
+    background-size: cover;
   }
   .nav {
     max-width: 2rem;
@@ -193,7 +195,8 @@ content {
     margin-top: 2rem;
   }
   .burger_menu {
-    margin-top: -rem;
+    margin-top: -1rem;
+    right: 0;
   }
   .language_btn {
     margin-top: -0.5rem;

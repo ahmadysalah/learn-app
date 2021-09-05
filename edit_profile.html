@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/mainStyle/style.css" rel="stylesheet">
+    <link href="style/home.css" rel="stylesheet">
+    <link href="style/stage.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
+    <title>Learn-App</title>
+</head>
+
+<body class="stage">
+    <header class="container">
+        <div class="row">
+            <div class="col-0">
+            </div>
+            <div class="col-6">
+                <nav class="nav navbar body-color">
+                    <div class="container-fluid">
+                        <img src="./assets/img/logo.png" alt="" width="30" height="30"
+                            class="d-inline-block align-text-top">
+                        <a class="navbar-brand" href="#">
+                            Home
+                        </a>
+                        <a class="navbar-brand opacity" href="#">Stages </a>
+                        <a class="navbar-brand opacity" href="#">Courses </a>
+                        <a class="navbar-brand opacity" href="#">Rate </a>
+                        <a class="navbar-brand opacity" href="#">About us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+    <div class="d-flex flex-column ">
+        <button type="button" class="burger_menu flex-row align-items-center bg-info">
+            <img src="./assets/svg/burger.svg" alt="" height="50px">
+        </button>
+        <button type="button" class="burger_menu  text-white language_btn">AR</button>
+    </div>
+
+    <div class="mt-5 w80 center course_container">
+        <h5>Edit Profile</h5>
+
+        <form class="mt-4 justify-content-between d-flex flex-column form" style="height: 60vh;">
+            <div class="form-group row">
+                <label for="avatar" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-5">
+                    <img src="./assets/svg/avatar.svg" class="rounded-3" style="width: 5rem;" alt="">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">username</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="username">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-5">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Female
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group row">
+                <div class="col-sm-2">Active</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            active
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
+                    <button type="submit" class="btn btn-info">Update</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

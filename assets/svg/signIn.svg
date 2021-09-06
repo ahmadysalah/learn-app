@@ -1,0 +1,518 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="939.992" height="812" viewBox="0 0 939.992 812">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(0, 1, 1, 0, -8.039, 8.039)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ff993a" stop-opacity="0.969"/>
+            <stop offset="1" stop-color="#ff993a" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-2" cx="0.419" cy="0.39" r="0.487" gradientTransform="matrix(0.988, 0, 0, -0.988, -0.07, 9.028)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffcd52"/>
+            <stop offset="1" stop-color="#f5a319"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-3" cx="0.457" cy="0.459" r="1.033" gradientTransform="matrix(0.803, 0, 0, -0.988, -1.519, 15.019)" gradientUnits="objectBoundingBox">
+            <stop offset="0.02" stop-color="#ffd985"/>
+            <stop offset="1" stop-color="#ffd985" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-4" cx="0.379" cy="0.293" r="0.704" gradientTransform="matrix(0.826, 0, 0, -0.988, -1.425, 15.502)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f4881c"/>
+            <stop offset="1" stop-color="#f2651d"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1="0.087" y1="2.855" x2="0.696" y2="2.165" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c94c14" stop-opacity="0"/>
+            <stop offset="1" stop-color="#c94c14"/>
+        </linearGradient>
+        <radialGradient id="radial-gradient-5" cx="0.34" cy="0.465" r="1.448" gradientTransform="matrix(1.02, 0, 0, -0.988, 0.334, 25.521)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-6" cx="0.321" cy="0.22" r="0.536" gradientTransform="matrix(1.388, 0, 0, -0.988, 3.942, 10.345)" xlink:href="#radial-gradient-3"/>
+        <radialGradient id="radial-gradient-7" cx="0.566" cy="-0.05" r="0.85" gradientTransform="matrix(1.389, 0, 0, -0.988, 4.017, 10.462)" xlink:href="#radial-gradient-4"/>
+        <linearGradient id="linear-gradient-2" x1="1.17" y1="0.138" x2="0.224" y2="0.469" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-3" x1="1.252" y1="-0.022" x2="-0.226" y2="0.618" xlink:href="#linear-gradient"/>
+        <radialGradient id="radial-gradient-8" cx="0.236" cy="0.111" r="1.029" gradientTransform="matrix(2.724, 0, 0, -0.988, 54.839, 14.98)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-9" cx="-5.997" cy="-9.503" r="20.168" gradientTransform="matrix(0.513, 0, 0, -0.988, -36.5, 190.237)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffcd52"/>
+            <stop offset="0.998" stop-color="#f5a319"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-10" cx="2.855" cy="-8.621" r="17.44" gradientTransform="matrix(0.696, 0.082, 0.056, -0.979, -21.999, 132.296)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-11" cx="0.527" cy="0.788" r="1.839" gradientTransform="matrix(0.423, 0, 0, -0.988, -2.49, 15.557)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed4743"/>
+            <stop offset="1" stop-color="#661b4d"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-12" cx="0.5" cy="0.5" r="0.642" gradientTransform="matrix(0.663, 0, 0, -0.988, -44.482, 302.774)" xlink:href="#radial-gradient-9"/>
+        <radialGradient id="radial-gradient-13" cx="0.5" cy="0.5" r="0.569" gradientTransform="matrix(0.798, 0, 0, -0.988, -19.048, 199.021)" xlink:href="#radial-gradient-9"/>
+        <linearGradient id="linear-gradient-4" x1="0.573" y1="-0.024" x2="0.513" y2="0.391" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ef5476"/>
+            <stop offset="1" stop-color="#ef5476" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="radial-gradient-14" cx="0.496" cy="0.341" r="0.548" gradientTransform="matrix(0.366, 0, 0, -0.988, -2.723, 17.676)" xlink:href="#radial-gradient-11"/>
+        <radialGradient id="radial-gradient-15" cx="0.17" cy="-3.266" r="4.589" gradientTransform="matrix(1.233, 0, 0, -0.988, 30.7, 149.457)" xlink:href="#radial-gradient-11"/>
+        <radialGradient id="radial-gradient-16" cx="0.094" cy="-3.753" r="1.68" gradientTransform="matrix(0.347, 0, 0, -0.988, -32.738, 188.882)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-17" cx="-2.562" cy="-7.582" r="3.525" gradientTransform="matrix(0.339, 0, 0, -0.988, -69.773, 396.892)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-18" cx="-6.216" cy="-13.468" r="27.288" gradientTransform="matrix(0.556, 0, 0, -0.988, -70.093, 346.725)" xlink:href="#radial-gradient-11"/>
+        <radialGradient id="radial-gradient-19" cx="-2.09" cy="-2.89" r="7.949" gradientTransform="matrix(0.744, 0, 0, -0.988, -50.172, 318.652)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-20" cx="-1.824" cy="-3.04" r="6.458" gradientTransform="matrix(0.842, 0, 0, -0.988, -20.27, 184.394)" xlink:href="#radial-gradient-11"/>
+        <radialGradient id="radial-gradient-21" cx="-0.012" cy="-5" r="8.851" gradientTransform="matrix(1.088, 0, 0, -0.988, 16.971, 213.028)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-22" cx="-0.009" cy="-4.997" r="8.859" gradientTransform="matrix(1.031, 0, 0, -0.988, 12.512, 473.571)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-23" cx="-0.011" cy="-5.005" r="9.117" gradientTransform="matrix(0.576, 0, 0, -0.988, -90.192, 488.73)" xlink:href="#radial-gradient-2"/>
+        <radialGradient id="radial-gradient-24" cx="1.087" cy="0.356" r="4.665" gradientTransform="matrix(1.081, 0, 0, -1, 2.497, 34.444)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e6e9ef"/>
+            <stop offset="1" stop-color="#a8c6e5"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-25" cx="0.587" cy="0.369" r="2.868" gradientTransform="matrix(1.737, 0, 0, -1, 30.139, 27.275)" xlink:href="#radial-gradient-24"/>
+        <radialGradient id="radial-gradient-26" cx="0.507" cy="0.297" r="1.501" gradientTransform="matrix(1.547, 0, 0, -1, 5.076, 9.136)" xlink:href="#radial-gradient-24"/>
+        <linearGradient id="linear-gradient-5" x1="0.561" y1="14.298" x2="0.464" y2="11.687" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3b4c93"/>
+            <stop offset="1" stop-color="#3b4c93" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-6" x1="0.706" y1="0.704" x2="-0.62" y2="-0.559" xlink:href="#linear-gradient-5"/>
+        <radialGradient id="radial-gradient-27" cx="0.424" cy="0.432" r="3.077" gradientTransform="matrix(1.137, 0, 0, -1, 8.937, 95.684)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fafcff"/>
+            <stop offset="1" stop-color="#a7b3c1"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-28" cx="-0.078" cy="1.004" r="7.791" gradientTransform="matrix(0.979, 0, 0, -1, -4.073, 325.731)" xlink:href="#radial-gradient-27"/>
+        <radialGradient id="radial-gradient-29" cx="0.344" cy="0.487" r="7.818" gradientTransform="matrix(0.971, 0, 0, -1, -5.524, 325.83)" xlink:href="#radial-gradient-27"/>
+        <radialGradient id="radial-gradient-30" cx="0.756" cy="-0.044" r="7.852" gradientTransform="matrix(0.967, 0, 0, -1, -6.16, 326.169)" xlink:href="#radial-gradient-27"/>
+        <radialGradient id="radial-gradient-31" cx="1.346" cy="-0.946" r="11.657" gradientTransform="matrix(0.969, 0, 0, -1, -8.794, 482.462)" xlink:href="#radial-gradient-27"/>
+        <radialGradient id="radial-gradient-32" cx="0.707" cy="-0.113" r="0.635" gradientTransform="matrix(1.389, 0, 0, -1, 6.525, 19.312)" xlink:href="#radial-gradient-24"/>
+        <radialGradient id="radial-gradient-33" cx="0.577" cy="0.467" r="2.927" gradientTransform="matrix(0.674, 0, 0, -1, -2.782, 20.822)" xlink:href="#radial-gradient-24"/>
+        <linearGradient id="linear-gradient-7" x1="0.514" y1="6.48" x2="0.483" y2="7.806" xlink:href="#linear-gradient-5"/>
+        <linearGradient id="linear-gradient-8" x1="0.5" y1="11.78" x2="0.5" y2="10.08" xlink:href="#linear-gradient-5"/>
+        <linearGradient id="linear-gradient-9" x1="2.217" y1="0.624" x2="-1.357" y2="0.658" xlink:href="#linear-gradient-5"/>
+        <radialGradient id="radial-gradient-34" cx="0.636" cy="0.654" r="7.705" gradientTransform="matrix(0.918, 0, 0, -1, -6.557, 126.397)" xlink:href="#radial-gradient-27"/>
+        <radialGradient id="radial-gradient-35" cx="0.604" cy="0.442" r="2.061" gradientTransform="matrix(1.715, 0, 0, -0.844, 51.371, 59.51)" xlink:href="#radial-gradient-24"/>
+        <radialGradient id="radial-gradient-36" cx="0.434" cy="0.222" r="1.086" gradientTransform="matrix(0.959, -0.05, -0.048, -0.999, 0.021, 30.704)" xlink:href="#radial-gradient-24"/>
+        <radialGradient id="radial-gradient-37" cx="0.362" cy="-0.09" r="3.864" gradientTransform="matrix(0.648, -0.05, -0.033, -0.999, -6.837, 54.62)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#282b6b"/>
+            <stop offset="0.109" stop-color="#252561"/>
+            <stop offset="0.45" stop-color="#1d1647"/>
+            <stop offset="0.758" stop-color="#190d38"/>
+            <stop offset="1" stop-color="#170a32"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient-10" x1="0.379" y1="14.494" x2="0.593" y2="12.906" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#454a96"/>
+            <stop offset="1" stop-color="#434892" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-11" x1="0.171" y1="22.498" x2="0.693" y2="20.731" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#555daa"/>
+            <stop offset="1" stop-color="#434892" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-12" x1="0.343" y1="20.441" x2="0.807" y2="18.377" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="radial-gradient-38" cx="0.509" cy="-0.035" r="2.347" gradientTransform="matrix(0.851, 0.284, 0.252, -0.959, -44.451, 241.689)" xlink:href="#radial-gradient-24"/>
+        <radialGradient id="radial-gradient-39" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(-0.284, 0.959, 0.959, 0.284, -102.157, 76.251)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffedc9"/>
+            <stop offset="1" stop-color="#ffca5f"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient-13" x1="0.578" y1="25.387" x2="0.212" y2="24.463" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0.369"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_2" data-name="Group 2" transform="translate(0 -134)">
+        <g id="illustration_onboarding-2" data-name="illustration/onboarding-2" transform="translate(220.3 134)">
+            <g id="illustration">
+                <path id="Vector_1" data-name="Vector 1" d="M-57.565,334.691c-87.448-21.107-111.051,9.795-111.922,27.884,60.368,112.827-69.1,20.241-48.585,52.393,8.167,12.8,55.709,38.448,154.293,60.433C61.955,500.609-37.265,458.788-133,422.5c-203.1-76.985,82.858-89.906,170.657-55.2s148.422,5.2,142.479-9.97-14.652-35.414,61.9,9.276,99.927,11.43,203.86,61.742c49.725,24.071-30.2,93.436,140.021,75.777C722.093,490,728.492,441.879,714.669,419.584,677.541,495.47,522.609,472.219,520.4,430.47s-61.782-62.077-126.438-69.193c-33.032-3.635-106.01-17.978-213.768-56.571C123.908,284.548,122,304.044,127.4,323.7c4.933,17.973-3.242,29.487-50.6,21.815-44.056-7.137-82.412-23.983-95.3-28.01C-39.273,314.52,29.883,355.8-57.565,334.691Z" fill="#fff" opacity="0.11" style="isolation: isolate"/>
+                <g id="Group_36" data-name="Group 36">
+                    <g id="Group_34" data-name="Group 34">
+                        <circle id="Ellipse_20" data-name="Ellipse 20" cx="128.42" cy="128.42" r="128.42" transform="translate(63.503 272.869)" fill="url(#radial-gradient)"/>
+                        <g id="illustration_planet-8" data-name="illustration/planet-8">
+                            <g id="Group">
+                                <path id="Vector" d="M192.194,499.86c55.494,0,100.48-44.432,100.48-99.242s-44.986-99.242-100.48-99.242S91.715,345.808,91.715,400.618,136.7,499.86,192.194,499.86Z" fill="url(#radial-gradient-2)"/>
+                                <path id="Vector_2" data-name="Vector 2" d="M196.853,398.908c25-24.693,29.38-60.4,9.781-79.762s-55.756-15.033-80.757,9.66-29.38,60.4-9.78,79.762S171.852,423.6,196.853,398.908Z" fill="#f9ce64" opacity="0.49" style="isolation: isolate"/>
+                                <path id="Vector_3" data-name="Vector 3" d="M243.8,315.457c-.58-.28-10.29-5.661-35.88-2.57-26.26,3.168-36.421,28.6-38.933,44.215s-3.4,42.842-18.777,55.664-38.533,9.5-48.488-4.185c-7.805-10.749-8.088-28.086-3.864-42.206a99.547,99.547,0,0,1,4.855-10.939A101.248,101.248,0,0,1,243.8,315.457Z" fill="url(#radial-gradient-3)"/>
+                                <path id="Vector_4" data-name="Vector 4" d="M213.638,452.962c7.946-31.953,1.674-58.4-19.653-58.564s-16.627,30.592-14.115,48.947C183.231,467.895,208.769,472.538,213.638,452.962Z" fill="#f4881c"/>
+                                <path id="Vector_5" data-name="Vector 5" d="M237.218,311.87v.012c-43.659-12.313-68.862,14.565-72.636,51.161s-14.694,56.655-41.07,53.5c-22.937-2.735-33.085-29.282-20.825-61.057a.075.075,0,0,0,.013-.051.1.1,0,0,0,.026-.051A101.31,101.31,0,0,1,237.218,311.87Z" fill="url(#radial-gradient-4)"/>
+                                <path id="Vector_6" data-name="Vector 6" d="M196.933,301.49c-35.21,4.834-43.246,27.412-49.493,49.189-1.828,6.347-2.962,11.677-5.035,15.684-2.627,5.088-6.388,8.141-10.715,9.056-10.509,2.226-13.484-7.9-13.227-16.294l8.05-7.785,14.5-34.408-1.533-.826a100.846,100.846,0,0,1,52.7-14.73C193.791,301.376,195.362,301.414,196.933,301.49Z" fill="url(#linear-gradient)"/>
+                                <path id="Vector_7" data-name="Vector 7" d="M187.351,301.49c-31.952,5.686-39.692,33.34-46.208,56.566-6.543,23.393-41.045,20.086-9.685-36.481v-.013c.631-.483,1.262-.941,1.906-1.411a.508.508,0,0,0,.1-.064c.9-.649,1.829-1.285,2.756-1.9s1.867-1.221,2.82-1.807a.262.262,0,0,1,.078-.05c.463-.293.94-.573,1.416-.853.683-.407,1.365-.8,2.061-1.183.541-.318,1.095-.623,1.648-.916,1.25-.674,2.512-1.322,3.787-1.933.386-.178.76-.369,1.133-.547,2.717-1.272,5.512-2.43,8.358-3.46.5-.191,1.018-.369,1.533-.534a.615.615,0,0,1,.141-.051c.425-.153.863-.3,1.288-.432,1.443-.484,2.885-.916,4.353-1.323.747-.217,1.494-.407,2.241-.6,1.327-.344,2.666-.649,4.018-.929.451-.1.9-.2,1.353-.292,1.545-.293,3.1-.573,4.675-.789.695-.114,1.391-.216,2.1-.293.708-.1,1.429-.178,2.151-.254l1.146-.114c.644-.064,1.288-.115,1.944-.166q1.14-.094,2.28-.152C186.952,301.5,187.145,301.5,187.351,301.49Z" fill="url(#radial-gradient-5)"/>
+                                <path id="Vector_8" data-name="Vector 8" d="M187.352,301.49c-31.953,5.686-39.693,33.34-46.209,56.566-3.671,13.1-16.1,17.834-20.825,9.5,5.589,4.554,15.544-.5,18.764-11.982,3.349-11.957,9.041-32.525,24.74-44.966C174.447,302.2,187.274,301.49,187.352,301.49Z" fill="#ffd985"/>
+                                <path id="Vector_9" data-name="Vector 9" d="M292.661,400.618c0,54.811-44.972,99.243-100.467,99.243a104.336,104.336,0,0,1-10.972-.585l-.013-.013c-9.492-1.476-9.569-6.309-8.436-9.629s3.967-7.073,15.558-7.518c12.891-.483,26.143-6.334,39.331-15.875,10.11-7.326,13.137-19.194,11.565-27.132s-8.255-17.693-9.826-22.247-8-16.549-11.4-39.547,4.147-36.8,15.867-42.282,34.9-2.047,47.625,20.1c.1.166.193.344.284.522l.012.012A97.831,97.831,0,0,1,292.661,400.618Z" fill="url(#radial-gradient-6)"/>
+                                <path id="Vector_10" data-name="Vector 10" d="M292.661,400.618c0,54.811-44.972,99.242-100.467,99.242a104.065,104.065,0,0,1-10.972-.585c-.013-.013-.013-.012-.013-.012-11.758-2.837-10.046-14.781,7.83-15.773s64.986-19.411,49.622-51.262-31-75.164-7.689-92.959c15.48-11.817,42.036,1.056,50.7,16.167.025.051.051.089.077.14A98,98,0,0,1,292.661,400.618Z" fill="url(#radial-gradient-7)"/>
+                                <path id="Vector_11" data-name="Vector 11" d="M241.7,433.881c15.365,31.851-31.746,50.27-49.621,51.262-14.734.814-18.481,9.069-12.763,13.534-9.621-3.587-7.122-14.246,9.723-15.188,17.876-.992,64.986-19.41,49.622-51.262s-31-75.163-7.689-92.958c9.853-7.518,24.2-5.037,35.558,1.653-10.792-5.393-23.529-6.868-32.518,0C210.7,358.718,226.323,402.017,241.7,433.881Z" fill="url(#linear-gradient-2)"/>
+                                <path id="Vector_12" data-name="Vector 12" d="M292.661,400.618a98.492,98.492,0,0,1-34.786,75.1c15.184-21.383,3.761-55.142-2.588-67.7s-11.166-29.154-3.645-41.264c7.161-11.524,25.474-12.847,36.679,4.948A97.956,97.956,0,0,1,292.661,400.618Z" fill="url(#linear-gradient-3)"/>
+                                <path id="Vector_13" data-name="Vector 13" d="M292.661,400.618a98.344,98.344,0,0,1-32.132,72.733c16.021-18.889,4.134-53.093-5.744-75.964-5.074-11.741-4.2-25.682,4.2-32.2,7.856-6.093,19.524-4.973,29.866,8.281A97.865,97.865,0,0,1,292.661,400.618Z" fill="url(#radial-gradient-8)"/>
+                                <path id="Vector_14" data-name="Vector 14" d="M257.425,399.6c8.152,18.877,17.67,45.462,11.745,64.8a99.938,99.938,0,0,1-8.641,8.955c16.021-18.889,4.134-53.093-5.744-75.964-5.074-11.741-4.2-25.682,4.2-32.2,6.723-5.215,16.253-5.151,25.346,3.307-8.256-6.207-16.614-5.8-22.693-1.081C253.227,373.931,252.364,387.859,257.425,399.6Z" fill="#ffd985"/>
+                                <path id="Vector_15" data-name="Vector 15" d="M196.1,345.12c-12.672.573-17.643,30.1-4.082,32.119C205.549,379.261,212.092,344.395,196.1,345.12Z" fill="#f4881c"/>
+                                <path id="Vector_16" data-name="Vector 16" d="M159.624,474.115c-11.063-3.918-13.355,9.209-1.6,12.2S171.807,478.427,159.624,474.115Z" fill="#f2731d"/>
+                                <path id="Vector_17" data-name="Vector 17" d="M289.017,330.785c-10.38-.586-16.884,9.183-3.065,9.107S297.53,331.268,289.017,330.785Z" fill="url(#radial-gradient-9)"/>
+                                <path id="Vector_18" data-name="Vector 18" d="M308.9,415.157c-7.045.776-12.428,8.955-6.555,14.438S314.941,414.5,308.9,415.157Z" fill="#f4881c"/>
+                                <path id="Vector_19" data-name="Vector 19" d="M77.3,370.268c-12.84,3.294-11.707,15-.245,11.817S91.071,366.744,77.3,370.268Z" fill="url(#radial-gradient-10)"/>
+                                <path id="Vector_20" data-name="Vector 20" d="M100.613,467.729c-17.4-6.843-11.462,6.221.374,11.817S114.213,473.072,100.613,467.729Z" fill="#f4881c"/>
+                                <path id="Vector_21" data-name="Vector 21" d="M277.709,348.491s46.969,7.238,5.886,42.1c-38.521,32.69-128.53,48.247-175.28,44.647s-38.443-36.278-15.763-47.42c0,0-38.276,11.651-32.236,42.714C66.73,463.557,134.124,463.366,204.4,447c62.578-14.578,113.887-48.96,113.887-72.785C318.29,357.5,298.972,346.939,277.709,348.491Z" fill="url(#radial-gradient-11)"/>
+                                <g id="Group_2-2" data-name="Group 2" opacity="0.35">
+                                    <path id="Vector_22" data-name="Vector 22" d="M77.818,398.455a36.66,36.66,0,0,0-4.7,8.09,23.95,23.95,0,0,0-1.971,9.044,16,16,0,0,0,2.5,8.777,20.717,20.717,0,0,0,6.709,6.322c5.345,3.244,11.514,4.936,17.67,6.055a127.2,127.2,0,0,0,18.79,1.755,332.638,332.638,0,0,0,75.109-7.53,309.942,309.942,0,0,0,36.408-10.062A249.01,249.01,0,0,0,263,406.075a161.212,161.212,0,0,0,16.137-9.693,93.81,93.81,0,0,0,14.437-11.957,48.364,48.364,0,0,0,5.937-7.212,25.19,25.19,0,0,0,3.787-8.434,13.1,13.1,0,0,0-1.082-9.018,15.658,15.658,0,0,0-6.62-6.462,15.672,15.672,0,0,1,6.762,6.385,13.3,13.3,0,0,1,1.262,9.159,25.37,25.37,0,0,1-3.7,8.637,48.109,48.109,0,0,1-5.885,7.39A94.565,94.565,0,0,1,279.6,397.056a160.585,160.585,0,0,1-16.137,9.884c-5.551,3-11.269,5.724-17.077,8.217S234.681,419.94,228.705,422a307.522,307.522,0,0,1-36.524,10.2,336.7,336.7,0,0,1-37.49,5.813c-6.3.623-12.608,1.043-18.931,1.323-6.324.242-12.66.407-18.984.14a129.522,129.522,0,0,1-18.906-1.946c-6.207-1.2-12.44-2.951-17.862-6.322a21.276,21.276,0,0,1-6.775-6.6,16.36,16.36,0,0,1-2.421-9.031,24.458,24.458,0,0,1,2.138-9.108A38.739,38.739,0,0,1,77.818,398.455Z" fill="#661b4d" opacity="0.35" style="isolation: isolate"/>
+                                </g>
+                                <path id="Vector_23" data-name="Vector 23" d="M272.157,319.565c-6.284-.28-6.787,5.47-1.918,4.974S275.931,319.731,272.157,319.565Z" fill="url(#radial-gradient-12)"/>
+                                <path id="Vector_24" data-name="Vector 24" d="M90.491,351.633c-5.64,1.335-7.392,8.8,0,7.3S95.359,350.475,90.491,351.633Z" fill="url(#radial-gradient-13)"/>
+                                <path id="Vector_25" data-name="Vector 25" d="M318.29,374.2c0,23.838-51.322,58.208-113.9,72.8C134.111,463.366,66.717,463.544,60.3,430.523a32.961,32.961,0,0,1-.566-8.713c.1,1.043.27,2.111.476,3.205,6.414,33.009,73.821,32.831,144.1,16.46,60.569-14.107,110.6-46.785,113.719-70.469A18.554,18.554,0,0,1,318.29,374.2Z" fill="url(#linear-gradient-4)"/>
+                                <path id="Vector_26" data-name="Vector 26" d="M318.29,374.2c0,23.838-51.322,58.208-113.9,72.8C136.97,462.7,72.2,463.506,61.385,434.39c14.592,25.529,76.77,24.168,141.383,9.12,62.577-14.59,113.9-48.959,113.9-72.8a20.451,20.451,0,0,0-1.172-6.856A20.213,20.213,0,0,1,318.29,374.2Z" fill="url(#radial-gradient-14)"/>
+                                <path id="Vector_27" data-name="Vector 27" d="M70.683,424.176c-6.336-6.564-7.894,3.4-3.361,6.971S75.809,429.493,70.683,424.176Z" fill="url(#radial-gradient-15)"/>
+                                <path id="Vector_28" data-name="Vector 28" d="M90.5,438.193c-6.259-2.009-7.38,2.366-.8,4.236S95.539,439.809,90.5,438.193Z" fill="#ce3d45"/>
+                                <path id="Vector_29" data-name="Vector 29" d="M148.522,440.178c-15.351.623-10.586,8.039,3.864,7.708S162.638,439.605,148.522,440.178Z" fill="url(#radial-gradient-16)"/>
+                                <path id="Vector_30" data-name="Vector 30" d="M176.508,439.071c-8.809,0-9.942,3.384-2.781,3.676S181.892,439.071,176.508,439.071Z" fill="url(#radial-gradient-17)"/>
+                                <path id="Vector_31" data-name="Vector 31" d="M210.8,430.358c-5.486,1.208-6.684,4.719-1.12,4.261S215.286,429.378,210.8,430.358Z" fill="url(#radial-gradient-18)"/>
+                                <path id="Vector_32" data-name="Vector 32" d="M246.478,419.279c-5.177,1.946-6.555,5.851-2.021,4.35S249.157,418.274,246.478,419.279Z" fill="url(#radial-gradient-19)"/>
+                                <path id="Vector_33" data-name="Vector 33" d="M266.943,407.423c-6.633,1.616-9.26,11.537-1.958,7.225S272.3,406.113,266.943,407.423Z" fill="url(#radial-gradient-20)"/>
+                                <path id="Vector_34" data-name="Vector 34" d="M291.2,391.9c-7.34,3.32-4.79,10.329-.759,5.47S294.232,390.544,291.2,391.9Z" fill="url(#radial-gradient-21)"/>
+                                <path id="Vector_35" data-name="Vector 35" d="M298.881,385.43c-2.279,2.1-1.262,4.236,1,2.239S300,384.413,298.881,385.43Z" fill="url(#radial-gradient-22)"/>
+                                <path id="Vector_36" data-name="Vector 36" d="M108.457,442.175c-4.8-1.654-5.86,2.608-2.022,2.671S109.719,442.62,108.457,442.175Z" fill="url(#radial-gradient-23)"/>
+                                <path id="Vector_37" data-name="Vector 37" d="M69.215,410.54c-2.82,2.582-1.03,5.622.271,4.261S70.181,409.662,69.215,410.54Z" fill="#ce3d45"/>
+                                <path id="Vector_38" data-name="Vector 38" d="M306.892,366.9c-2.988,3.155-1.507,10.329.824,7.1S307.832,365.9,306.892,366.9Z" fill="#ce3d45"/>
+                                <path id="Vector_39" data-name="Vector 39" d="M129.681,342.322c-4.727,7.518-2.331,14.5,1.957,8.65S132.579,337.718,129.681,342.322Z" fill="#f4881c"/>
+                                <path id="Vector_40" data-name="Vector 40" d="M135.6,330.683c-2.5,1.742-1.635,6.7.438,3.968S137.125,329.627,135.6,330.683Z" fill="#f4881c"/>
+                                <path id="Vector_41" data-name="Vector 41" d="M268.771,378.091c-8.114,1.056-5.525,11.079-.786,8.891C272.75,384.82,274.515,377.353,268.771,378.091Z" fill="#f4881c"/>
+                                <path id="Vector_42" data-name="Vector 42" d="M280.491,381.016c-3.9.624-4.224,3.677-1.262,3.422S283.208,380.584,280.491,381.016Z" fill="#f4881c"/>
+                                <path id="Vector_43" data-name="Vector 43" d="M178.44,465.8c-6.607-4.668-9.7,1.145-3.271,4.389S182.973,469,178.44,465.8Z" fill="#f2731d"/>
+                                <path id="Vector_44" data-name="Vector 44" d="M139.043,466.814c-9.684-5.788-9.736,3.358-2.176,5.978S143.628,469.561,139.043,466.814Z" fill="#f9ce64" opacity="0.49" style="isolation: isolate"/>
+                                <path id="Vector_45" data-name="Vector 45" d="M232.479,318.612c-11.153-.179-9.891,8.382-1.919,7.174S237.746,318.7,232.479,318.612Z" fill="#f9ce64" opacity="0.49" style="isolation: isolate"/>
+                                <path id="Vector_46" data-name="Vector 46" d="M246.916,323.152c-6.13-.966-7.186,2.748-2.2,3.053C250.9,326.574,249.067,323.5,246.916,323.152Z" fill="#f2731d"/>
+                                <path id="Vector_47" data-name="Vector 47" d="M107.632,423.769c-4.507-4.007-5.962.636-2.356,3.4C108.894,429.9,111.844,427.5,107.632,423.769Z" fill="#f2731d"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group_3" data-name="Group 3">
+                        <path id="Vector_48" data-name="Vector 48" d="M107.322,540.118s-1.34,5.971,3.323,6.792,11.414-.918,21.821-8.994c10.131-7.856,13.178-12.283,13.178-12.283l-.553-6.037C145.1,519.6,123.351,542.108,107.322,540.118Z" fill="#677eb2"/>
+                        <path id="Vector_49" data-name="Vector 49" d="M124.058,504.738s-.69,6.133-6.564,15.509-9.448,15.647-10.131,19.579,9.7,4.712,23.609-6.638S145.108,519.6,145.108,519.6l-.918-17.979Z" fill="url(#radial-gradient-24)"/>
+                        <g id="Group_4" data-name="Group 4">
+                            <path id="Vector_50" data-name="Vector 50" d="M113.277,546.95a.4.4,0,0,1-.4-.333l-.674-3.656a.4.4,0,1,1,.8-.146l.674,3.656a.406.406,0,0,1-.325.471A.228.228,0,0,1,113.277,546.95Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_5" data-name="Group 5">
+                            <path id="Vector_51" data-name="Vector 51" d="M122.392,544.025a.416.416,0,0,1-.4-.325l-.747-3.753a.411.411,0,0,1,.317-.479.405.405,0,0,1,.479.316l.747,3.754a.412.412,0,0,1-.316.479A.286.286,0,0,1,122.392,544.025Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_6" data-name="Group 6">
+                            <path id="Vector_52" data-name="Vector 52" d="M130.1,539.183a.385.385,0,0,1-.138-.024c-.236-.089-.284-.106-1.332-3.567a.4.4,0,0,1,.772-.235c.414,1.365.893,2.884,1.015,3.176.008.009.008.017.016.025a.4.4,0,0,1-.113.56A.388.388,0,0,1,130.1,539.183Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_7" data-name="Group 7">
+                            <path id="Vector_53" data-name="Vector 53" d="M137.414,533.562a.4.4,0,0,1-.39-.293l-1.08-3.72a.411.411,0,0,1,.276-.5.406.406,0,0,1,.5.276l1.081,3.721a.411.411,0,0,1-.276.5A.3.3,0,0,1,137.414,533.562Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_8" data-name="Group 8">
+                            <path id="Vector_54" data-name="Vector 54" d="M142.46,528.98a.4.4,0,0,1-.4-.342l-.642-4.257a.407.407,0,1,1,.8-.121l.642,4.257a.411.411,0,0,1-.341.463Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_55" data-name="Vector 55" d="M125.073,523.276l-6.54,10.8a1.268,1.268,0,0,1-1.373.577L109.987,533c1.738-3.4,4.273-7.6,7.49-12.755.309-.5.61-.983.894-1.463l.008-.008,6.118,2.681A1.266,1.266,0,0,1,125.073,523.276Z" fill="#677eb2"/>
+                        <g id="Group_9" data-name="Group 9">
+                            <path id="Vector_56" data-name="Vector 56" d="M119.858,531.23a.245.245,0,0,1-.105-.017l-7.028-1.852a.407.407,0,0,1,.2-.788l7.028,1.852a.409.409,0,0,1-.1.8Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_10" data-name="Group 10">
+                            <path id="Vector_57" data-name="Vector 57" d="M122.587,526.567a.649.649,0,0,1-.122-.016l-6.889-2.153a.409.409,0,0,1,.244-.78l6.889,2.153a.411.411,0,0,1,.268.512A.418.418,0,0,1,122.587,526.567Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_58" data-name="Vector 58" d="M139.862,519.788c1.335-1.5,1.413-3.613.175-4.712s-3.324-.772-4.658.731-1.413,3.613-.175,4.712S138.527,521.291,139.862,519.788Z" fill="#677eb2"/>
+                        <path id="Vector_59" data-name="Vector 59" d="M186.565,534.862s-.2,5.849,5.321,7.425c7.767,2.226,27.33-31.79,27.33-31.79l-2.291-4.777Z" fill="#677eb2"/>
+                        <path id="Vector_60" data-name="Vector 60" d="M193.414,498.88a54.473,54.473,0,0,1-3.2,21.139c-4.022,10.431-6.036,19.035,1.1,17.751s25.623-32.042,25.623-32.042l-5.947-20.57Z" fill="url(#radial-gradient-25)"/>
+                        <path id="Vector_61" data-name="Vector 61" d="M211.672,506.572a2.766,2.766,0,1,0-4.058,1.333A3.049,3.049,0,0,0,211.672,506.572Z" fill="#677eb2"/>
+                        <g id="Group_11" data-name="Group 11">
+                            <path id="Vector_62" data-name="Vector 62" d="M193.079,537.344l-.626.518,3.012,3.645.626-.518Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_12" data-name="Group 12">
+                            <path id="Vector_63" data-name="Vector 63" d="M198.993,531.767l-.592.557,3.3,3.509.592-.557Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_13" data-name="Group 13">
+                            <path id="Vector_64" data-name="Vector 64" d="M204.091,525.52l-.555.593,3.383,3.162.555-.593Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_14" data-name="Group 14">
+                            <path id="Vector_65" data-name="Vector 65" d="M211.287,523.049l-3.485-3.12.544-.609,3.485,3.12Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_15" data-name="Group 15">
+                            <path id="Vector_66" data-name="Vector 66" d="M212.518,513.486l-.615.532,2.944,3.4.614-.531Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_67" data-name="Vector 67" d="M201.01,512.991l-2.876,10.066a2.267,2.267,0,0,1-2.494,1.625l-6.8-.951a.03.03,0,0,1,.008-.024c.415-1.194.878-2.429,1.365-3.689a48.246,48.246,0,0,0,2.689-10.561l6.183.666A2.249,2.249,0,0,1,201.01,512.991Z" fill="#677eb2"/>
+                        <g id="Group_16" data-name="Group 16">
+                            <path id="Vector_68" data-name="Vector 68" d="M190.65,518.594l-.086.808,8.449.9.087-.807Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_17" data-name="Group 17">
+                            <path id="Vector_69" data-name="Vector 69" d="M192.019,513.937l-.066.81,8.462.693.066-.809Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_18" data-name="Group 18">
+                            <path id="Vector_70" data-name="Vector 70" d="M215.508,508.74l-.648.491,2.786,3.678.648-.49Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_71" data-name="Vector 71" d="M177.564,319.555c-12.877,17.727-50.581,51.767-57.714,72.452s4.208,112.73,4.208,112.73,14.274,3.664,20.132-3.111l4.208-87.294,18.3-24.161s-9.928,17.466-5.427,31.326c4.094,12.609,32.147,77.375,32.147,77.375s15.233-2.056,17.564-13.722l-13.315-72.516s46.072-35.275,46.616-85.418C244.287,327.225,225.943,293.225,177.564,319.555Z" fill="url(#radial-gradient-26)"/>
+                        <path id="Vector_72" data-name="Vector 72" d="M244.287,327.225c-.016,1.6-.081,3.176-.187,4.744-3.428-1-12.259-5.411-20.213-7.32-16.516-3.956-38.329-5.3-43.244-5.459C189.766,318.256,217.64,316.59,244.287,327.225Z" opacity="0.25" fill="url(#linear-gradient-5)" style="isolation: isolate"/>
+                        <path id="Vector_73" data-name="Vector 73" d="M166.686,390.2l-18.3,24.136-4.208,87.294a9.466,9.466,0,0,1-2.259,1.9L145.1,409.92s21.992-31.481,30.994-43.074A128.451,128.451,0,0,1,196.55,345.78s-7.921,9.659-14.778,19.936C174.1,377.2,166.515,390.495,166.686,390.2Z" opacity="0.25" fill="url(#linear-gradient-6)" style="isolation: isolate"/>
+                        <path id="Vector_74" data-name="Vector 74" d="M141.492,234.316l-.617-10.935a1.035,1.035,0,0,0-1.487-.869,3.992,3.992,0,0,0-2.218,3.713l.057,1.535-4.249-3.777-9.464,10.983,6,7.889s10.31-4.078,11.13-5.4A7.231,7.231,0,0,0,141.492,234.316Z" fill="url(#radial-gradient-27)"/>
+                        <path id="Vector_75" data-name="Vector 75" d="M134.831,228.159c-.016.016-.025.032-.041.049a1.985,1.985,0,0,1-2.835.146l-2.121-1.966a1.98,1.98,0,0,1-.1-2.8l.057-.065a1.982,1.982,0,0,1,2.811-.089c.666.625,1.454,1.364,2.1,1.99A1.977,1.977,0,0,1,134.831,228.159Z" fill="url(#radial-gradient-28)"/>
+                        <path id="Vector_76" data-name="Vector 76" d="M132.279,231.221c-.016.016-.024.033-.04.049a1.987,1.987,0,0,1-2.836.187l-2.145-1.942a1.981,1.981,0,0,1-.138-2.8l.057-.065a1.984,1.984,0,0,1,2.811-.13c.674.618,1.471,1.349,2.137,1.958A2,2,0,0,1,132.279,231.221Z" fill="url(#radial-gradient-29)"/>
+                        <path id="Vector_77" data-name="Vector 77" d="M129.729,234.414a2.03,2.03,0,0,1-2.884.179l-2.1-1.893a2.027,2.027,0,0,1-.146-2.86l.008-.008a2.019,2.019,0,0,1,2.859-.138l2.088,1.9A2.009,2.009,0,0,1,129.729,234.414Z" fill="url(#radial-gradient-30)"/>
+                        <path id="Vector_78" data-name="Vector 78" d="M126.958,236.226a1.369,1.369,0,0,1-1.942.121l-1.4-1.275a1.361,1.361,0,0,1-.1-1.925l.008-.009a1.356,1.356,0,0,1,1.926-.089l1.4,1.276A1.363,1.363,0,0,1,126.958,236.226Z" fill="url(#radial-gradient-31)"/>
+                        <g id="Group_19" data-name="Group 19">
+                            <path id="Vector_79" data-name="Vector 79" d="M133.4,236.014a.407.407,0,0,1-.406-.373,6.621,6.621,0,0,1,3.274-6.345.4.4,0,1,1,.365.723,5.713,5.713,0,0,0-2.835,5.557.4.4,0,0,1-.374.438Z" fill="#a7b3c1"/>
+                        </g>
+                        <path id="Vector_80" data-name="Vector 80" d="M182.82,235.755v-9.278a6.734,6.734,0,0,1,6.532-6.776l59.363-1.365a6.729,6.729,0,0,1,6.832,6.54c.545,15.842,1.454,56.78-2,89.179A6.708,6.708,0,0,1,246,320.034l-49.07-6.734a6.735,6.735,0,0,1-5.743-5.915l-8.328-70.818C182.836,236.291,182.82,236.023,182.82,235.755Z" fill="url(#radial-gradient-32)"/>
+                        <path id="Vector_81" data-name="Vector 81" d="M180.017,314.827l-2.454,4.736s34.276-5.281,66.724,7.669l.869-5.264C245.156,321.96,212.327,301.235,180.017,314.827Z" fill="#677eb2"/>
+                        <path id="Vector_82" data-name="Vector 82" d="M127.185,246.9l1.836,3.2a2.53,2.53,0,0,0,1.706,1.219l.862.162s15.249-9.871,15.151-9.984a3.361,3.361,0,0,1,.228-1.024,2.513,2.513,0,0,0-.277-2.056l-2.039-3.241a1.54,1.54,0,0,0-1.82-.585c-3.038,1.129-11.308,4.639-15.557,10.586A1.534,1.534,0,0,0,127.185,246.9Z" fill="#677eb2"/>
+                        <path id="Vector_83" data-name="Vector 83" d="M207.436,230.149l-9.952-.667c-2.006.788-4.094,1.552-6.3,2.649a62.875,62.875,0,0,0-9.578,6.052c-14.64,11.074-19.4,20.774-19.4,20.774l-17.109-19.3a24.809,24.809,0,0,0-14.412,10.318s16.695,33.057,26.858,37.541S183.624,270.4,183.624,270.4s6.744,29.052-3.607,44.423c0,0,32.749-7.41,65.14,7.133l.82-23.747s9.952,5.695,18.255,4.8,6.8-12.674.821-34.722c-4.826-17.8-11.276-34.5-29.588-40.207-.374-.114-.788.488-1.186.423-3.957-.658-9,.276-13.917.073Z" fill="url(#radial-gradient-33)"/>
+                        <path id="Vector_84" data-name="Vector 84" d="M185.257,280.844a94.913,94.913,0,0,0-1.633-10.44S167.7,292,157.546,287.514s-26.858-37.534-26.858-37.534a24.862,24.862,0,0,1,4.224-4.85l-2.413,5.134s17.191,32.6,28.085,32.741,23.569-18.2,23.569-18.2S185.371,275.344,185.257,280.844Z" opacity="0.25" fill="url(#linear-gradient-7)" style="isolation: isolate"/>
+                        <path id="Vector_85" data-name="Vector 85" d="M244.628,273.491a76.021,76.021,0,0,1-2.729-18.165l-1.674,1.957s.089,7.848-.114,18.686v2.486l5.858,1.308A47.23,47.23,0,0,0,244.628,273.491Z" opacity="0.25" fill="url(#linear-gradient-8)" style="isolation: isolate"/>
+                        <path id="Vector_86" data-name="Vector 86" d="M245.977,298.221l-.821,23.747-.869,5.256c-.553,50.143-46.625,85.418-46.625,85.418l13.316,72.516a13.891,13.891,0,0,1-2.941,6.174l-14.006-80.055c19.368-15.7,34.2-46.113,41.116-75.425,4.2-17.816,4.192-38.151,4.314-40.564" opacity="0.25" fill="url(#linear-gradient-9)" style="isolation: isolate"/>
+                        <path id="Vector_87" data-name="Vector 87" d="M240.843,230.255s-7.816,9.992-24.462,9.992c-16.346,0-24.641-7.929-24.949-8.23,2.144-1.1,6.044-2.534,6.044-2.534A32.948,32.948,0,0,0,201.6,231.1c3.445.975,7.336,1.6,7.336,1.6l11.439-4.883c5.273.22,15.087.268,15.087.268s.138.041.2.057A30.585,30.585,0,0,1,240.843,230.255Z" fill="#677eb2"/>
+                        <g id="Group_20" data-name="Group 20">
+                            <path id="Vector_88" data-name="Vector 88" d="M232.865,286.6h-36.4a2.7,2.7,0,0,1-2.633-2.072c-2.331-9.773-.844-20.44-.1-24.575a2.714,2.714,0,0,1,2.713-2.21l36.478.764a2.716,2.716,0,0,1,2.64,2.7v22.7A2.7,2.7,0,0,1,232.865,286.6Zm-38.338-26.5c-.739,4.086-2.2,14.615.1,24.242a1.886,1.886,0,0,0,1.836,1.455h36.4a1.886,1.886,0,0,0,1.885-1.885V261.208a1.9,1.9,0,0,0-1.845-1.885l-36.477-.764A1.915,1.915,0,0,0,194.527,260.1Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_21" data-name="Group 21">
+                            <g id="Group_22" data-name="Group 22">
+                                <path id="Vector_89" data-name="Vector 89" d="M205.552,275.75a6.695,6.695,0,1,1,6.694-6.7A6.706,6.706,0,0,1,205.552,275.75Zm0-12.585a5.882,5.882,0,1,0,5.882,5.882A5.891,5.891,0,0,0,205.552,263.165Z" fill="#677eb2"/>
+                            </g>
+                            <g id="Group_23" data-name="Group 23">
+                                <path id="Vector_90" data-name="Vector 90" d="M211.84,269.454h-6.694V262.76h.812v5.881h5.882Z" fill="#677eb2"/>
+                            </g>
+                        </g>
+                        <g id="Group_24" data-name="Group 24">
+                            <path id="Vector_91" data-name="Vector 91" d="M210.938,282.2H200.644a2.08,2.08,0,1,1,0-4.159h10.294a2.08,2.08,0,0,1,0,4.159Zm-10.294-3.339a1.268,1.268,0,0,0,0,2.535h10.294a1.268,1.268,0,0,0,0-2.535Z" fill="#677eb2"/>
+                        </g>
+                        <path id="Vector_92" data-name="Vector 92" d="M197.7,233.569a.618.618,0,1,0-.617-.617A.617.617,0,0,0,197.7,233.569Z" fill="#fff"/>
+                        <path id="Vector_93" data-name="Vector 93" d="M205.08,236.68a.617.617,0,1,0-.617-.617A.618.618,0,0,0,205.08,236.68Z" fill="#fff"/>
+                        <path id="Vector_94" data-name="Vector 94" d="M215.763,237.915a.618.618,0,1,0-.617-.617A.618.618,0,0,0,215.763,237.915Z" fill="#fff"/>
+                        <path id="Vector_95" data-name="Vector 95" d="M227.226,236.063a.618.618,0,1,0-.617-.617A.618.618,0,0,0,227.226,236.063Z" fill="#fff"/>
+                        <path id="Vector_96" data-name="Vector 96" d="M234.295,232.7a.618.618,0,1,0-.618-.618A.618.618,0,0,0,234.295,232.7Z" fill="#fff"/>
+                        <path id="Vector_97" data-name="Vector 97" d="M244.06,270.355a59.723,59.723,0,0,1-2.4-39.67,23.877,23.877,0,0,1,4.143,2.567C240.631,247.615,244.06,270.355,244.06,270.355Z" fill="#677eb2"/>
+                        <path id="Vector_98" data-name="Vector 98" d="M188.742,233.48c-2.348,8.514-3.509,45.332-3.55,46.746a90.893,90.893,0,0,0-1.568-9.8l-.008-.024c-1.714-11.228-.8-33.1-.8-33.1A67.225,67.225,0,0,1,188.742,233.48Z" fill="#677eb2"/>
+                        <path id="Vector_99" data-name="Vector 99" d="M170.536,283.858c-4.363,3.266-9.1,5.37-12.991,3.655a20.02,20.02,0,0,1-5.865-4.712v-.008S160.356,276.708,170.536,283.858Z" fill="#677eb2"/>
+                        <g id="Group_25" data-name="Group 25">
+                            <path id="Vector_100" data-name="Vector 100" d="M161.973,263.027a.4.4,0,0,1-.406-.406V259.1a.406.406,0,1,1,.812,0v3.526A.407.407,0,0,1,161.973,263.027Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_26" data-name="Group 26">
+                            <path id="Vector_101" data-name="Vector 101" d="M137.015,259.745a.4.4,0,0,1-.243-.081.4.4,0,0,1-.082-.569c.277-.366,6.8-9.01,15.379-10.724a.407.407,0,0,1,.48.317.413.413,0,0,1-.317.479c-8.27,1.65-14.827,10.326-14.892,10.416A.412.412,0,0,1,137.015,259.745Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_27" data-name="Group 27">
+                            <path id="Vector_102" data-name="Vector 102" d="M143.848,270.485a.37.37,0,0,1-.162-.032.411.411,0,0,1-.211-.536c.048-.106,4.752-10.554,15.923-13.706a.412.412,0,0,1,.5.285.4.4,0,0,1-.285.5c-10.805,3.055-15.354,13.153-15.4,13.251A.4.4,0,0,1,143.848,270.485Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_28" data-name="Group 28">
+                            <path id="Vector_103" data-name="Vector 103" d="M178.676,274.815a.436.436,0,0,1-.219-.065c-12.454-7.929-12.828-20.286-12.828-20.408a.407.407,0,0,1,.4-.414h.008a.411.411,0,0,1,.406.4c0,.122.374,12.056,12.455,19.741a.407.407,0,0,1-.22.748Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_29" data-name="Group 29">
+                            <path id="Vector_104" data-name="Vector 104" d="M181.585,263.166a.372.372,0,0,1-.2-.057c-5.24-3.063-9.619-14.6-9.806-15.087a.4.4,0,1,1,.756-.284c.04.114,4.468,11.756,9.456,14.672a.406.406,0,0,1-.2.756Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_30" data-name="Group 30">
+                            <path id="Vector_105" data-name="Vector 105" d="M245.985,298.619a.432.432,0,0,1-.171-.032l-8.944-4.03-.033-.228a26.587,26.587,0,0,1,3.445-16.093l.162-.252.293.081,21.594,5.8a.4.4,0,0,1-.211.78l-21.294-5.72a26.342,26.342,0,0,0-3.2,15.079l8.531,3.842a.408.408,0,0,1,.2.536A.42.42,0,0,1,245.985,298.619Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_31" data-name="Group 31">
+                            <path id="Vector_106" data-name="Vector 106" d="M222.764,252.594l-4.884.791,8.077,49.857,4.883-.791Z" fill="#ffcf8a"/>
+                            <g id="Group_32" data-name="Group 32">
+                                <g id="Group_33" data-name="Group 33">
+                                    <path id="Vector_107" data-name="Vector 107" d="M219.183,257.763a.4.4,0,0,1-.065-.8l.959-.155a.4.4,0,0,1,.463.333.405.405,0,0,1-.333.464l-.959.154C219.224,257.755,219.208,257.763,219.183,257.763Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_34-2" data-name="Group 34">
+                                    <path id="Vector_108" data-name="Vector 108" d="M220.028,262.978a.4.4,0,0,1-.4-.341.406.406,0,0,1,.333-.463l.959-.154a.394.394,0,0,1,.463.333.406.406,0,0,1-.333.463l-.959.154A.182.182,0,0,1,220.028,262.978Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_35" data-name="Group 35">
+                                    <path id="Vector_109" data-name="Vector 109" d="M220.873,268.194a.4.4,0,0,1-.065-.8l.958-.154a.4.4,0,0,1,.464.333.406.406,0,0,1-.334.463l-.958.154A.184.184,0,0,1,220.873,268.194Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_36-2" data-name="Group 36">
+                                    <path id="Vector_110" data-name="Vector 110" d="M221.718,273.41a.405.405,0,0,1-.065-.8l.958-.154a.4.4,0,0,1,.463.333.4.4,0,0,1-.333.463l-.958.155A.184.184,0,0,1,221.718,273.41Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_37" data-name="Group 37">
+                                    <path id="Vector_111" data-name="Vector 111" d="M222.563,278.634a.405.405,0,0,1-.065-.8l.958-.154a.4.4,0,0,1,.463.333.4.4,0,0,1-.333.463l-.958.155C222.6,278.626,222.587,278.634,222.563,278.634Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_38" data-name="Group 38">
+                                    <path id="Vector_112" data-name="Vector 112" d="M223.408,283.849a.4.4,0,0,1-.4-.341.4.4,0,0,1,.333-.463l.959-.154a.4.4,0,0,1,.463.333.406.406,0,0,1-.333.463l-.959.154A.182.182,0,0,1,223.408,283.849Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_39" data-name="Group 39">
+                                    <path id="Vector_113" data-name="Vector 113" d="M224.253,289.065a.4.4,0,0,1-.065-.8l.959-.155a.4.4,0,0,1,.463.333.4.4,0,0,1-.333.463l-.959.155A.179.179,0,0,1,224.253,289.065Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_40" data-name="Group 40">
+                                    <path id="Vector_114" data-name="Vector 114" d="M225.1,294.281a.4.4,0,0,1-.065-.8l.959-.155a.4.4,0,0,1,.463.334.4.4,0,0,1-.333.463l-.959.154A.179.179,0,0,1,225.1,294.281Z" fill="#f49b58"/>
+                                </g>
+                                <g id="Group_41" data-name="Group 41">
+                                    <path id="Vector_115" data-name="Vector 115" d="M225.942,299.5a.4.4,0,0,1-.4-.341.406.406,0,0,1,.333-.463l.959-.154a.4.4,0,0,1,.463.333.406.406,0,0,1-.333.463l-.959.154A.159.159,0,0,1,225.942,299.5Z" fill="#f49b58"/>
+                                </g>
+                            </g>
+                        </g>
+                        <path id="Vector_116" data-name="Vector 116" d="M235.546,277.789l-8.23-2.08-5.11,1.739a1.294,1.294,0,0,0,.739,2.478c1.706-.447,4.363-1.138,4.233-1.1s-3.323,1.161-4.988,1.746a1.325,1.325,0,0,0,.788,2.527l4.07-1.072-3.94,1.657a1.4,1.4,0,0,0,.845,2.665c1.714-.374,4.712-1.04,4.614-1.073s-2.291.813-3.583,1.325a1.156,1.156,0,0,0,.6,2.217l3.022-.479,3.436,2.056h2.519l2.746-10.2Z" fill="url(#radial-gradient-34)"/>
+                        <g id="Group_42" data-name="Group 42">
+                            <path id="Vector_117" data-name="Vector 117" d="M222.376,280.7a.419.419,0,0,1-.39-.284.406.406,0,0,1,.268-.5l4.8-1.479a.4.4,0,0,1,.235.772l-4.8,1.479A.49.49,0,0,1,222.376,280.7Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_43" data-name="Group 43">
+                            <path id="Vector_118" data-name="Vector 118" d="M222.661,283.842a.417.417,0,0,1-.39-.285.406.406,0,0,1,.268-.5l4.8-1.478a.4.4,0,1,1,.236.772l-4.8,1.478A.671.671,0,0,1,222.661,283.842Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_44" data-name="Group 44">
+                            <path id="Vector_119" data-name="Vector 119" d="M223.887,287.14a.419.419,0,0,1-.39-.284.406.406,0,0,1,.269-.5l4.8-1.478a.4.4,0,1,1,.236.771l-4.8,1.479A.482.482,0,0,1,223.887,287.14Z" fill="#a7b3c1"/>
+                        </g>
+                        <path id="Vector_120" data-name="Vector 120" d="M240.632,278.447a26.513,26.513,0,0,0-3.388,15.834l1.324.593-.8.837a1.14,1.14,0,0,1-1.113.317l-3.177-.845a1.154,1.154,0,0,1-.8-.8c-2.266-8.506,2.08-15.542,3.526-17.581a1.136,1.136,0,0,1,1.154-.447l4.119.853a1.127,1.127,0,0,1,.877.845l.171.674a.857.857,0,0,1,.032.244Z" fill="#677eb2"/>
+                        <g id="Group_45" data-name="Group 45">
+                            <path id="Vector_121" data-name="Vector 121" d="M167.051,390.374l-.707-.4c15.712-27.987,30.051-44.642,30.2-44.812l.617.528C197.013,345.861,182.723,362.467,167.051,390.374Z" fill="#677eb2"/>
+                        </g>
+                        <path id="Vector_122" data-name="Vector 122" d="M131.979,394.557c-.748,5.216-2.218,15.9-2.324,19.978-.13,5.491-12.162,3.98-12.162,3.98-.073-11.617.553-21.317,2.348-26.517a39.521,39.521,0,0,1,2.438-5.516.861.861,0,0,1,.105-.187l7.377,3.916A4.245,4.245,0,0,1,131.979,394.557Z" fill="#677eb2"/>
+                        <g id="Group_46" data-name="Group 46">
+                            <path id="Vector_123" data-name="Vector 123" d="M130.3,400.228a.182.182,0,0,1-.065-.008l-10.764-1.682a.407.407,0,1,1,.121-.8l10.765,1.682a.41.41,0,0,1,.341.463A.4.4,0,0,1,130.3,400.228Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_47" data-name="Group 47">
+                            <path id="Vector_124" data-name="Vector 124" d="M129.152,409.571h-.033l-10.488-.805a.4.4,0,0,1-.374-.438.414.414,0,0,1,.439-.374l10.488.8a.4.4,0,0,1,.374.439A.419.419,0,0,1,129.152,409.571Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_125" data-name="Vector 125" d="M167.571,403.087c-.918,3.1-3.185,13.088,2.251,22.407a1.816,1.816,0,0,0,1.7.91l12.722-.894a1.8,1.8,0,0,0,1.673-1.885c-.227-4.127-.739-14.38-.511-18.328a1.789,1.789,0,0,0-1.1-1.755c-2.575-1.1-8.839-3.266-15.4-1.69A1.777,1.777,0,0,0,167.571,403.087Z" fill="#677eb2"/>
+                        <g id="Group_48" data-name="Group 48">
+                            <path id="Vector_126" data-name="Vector 126" d="M184.631,410.326a.457.457,0,0,1-.178-.041c-6-2.876-17.077-.958-17.183-.934a.411.411,0,0,1-.471-.333.4.4,0,0,1,.333-.471c.463-.082,11.447-1.983,17.678,1.007a.417.417,0,0,1,.2.544A.429.429,0,0,1,184.631,410.326Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_49" data-name="Group 49">
+                            <path id="Vector_127" data-name="Vector 127" d="M184.632,417.711a.426.426,0,0,1-.2-.049c-4.233-2.266-16.687.017-16.817.041a.4.4,0,1,1-.147-.8c.528-.1,12.861-2.364,17.345.04a.41.41,0,0,1,.163.553A.369.369,0,0,1,184.632,417.711Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_50" data-name="Group 50">
+                            <path id="Vector_128" data-name="Vector 128" d="M210.97,399.944c-7.946-25.437-35.5-23.682-35.779-23.65l-.057-.812c.285-.016,28.484-1.828,36.616,24.218Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_51" data-name="Group 51">
+                            <path id="Vector_129" data-name="Vector 129" d="M231.663,371.7c-11.358-23.057-39.443-19.726-39.719-19.685l-.106-.8c.293-.033,28.939-3.453,40.548,20.139Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_52" data-name="Group 52">
+                            <path id="Vector_130" data-name="Vector 130" d="M186,359.356c-.114-.171-11.837-17.126-29.361-15.3l-.081-.8c18-1.885,30,15.476,30.125,15.655Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_53" data-name="Group 53">
+                            <path id="Vector_131" data-name="Vector 131" d="M167.368,388.74c-.171-.187-17.223-18.312-34.8-17.126l-.057-.812c17.971-1.2,35.275,17.2,35.446,17.386Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_54" data-name="Group 54">
+                            <path id="Vector_132" data-name="Vector 132" d="M133.238,453.945a39.118,39.118,0,0,1-14.542-3.136l.341-.74c.171.082,17.166,7.832,27.427-1.6l.553.6C142.963,452.791,137.926,453.945,133.238,453.945Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_55" data-name="Group 55">
+                            <path id="Vector_133" data-name="Vector 133" d="M132.483,482.94A25.468,25.468,0,0,1,121.158,480l.357-.731c15.525,7.686,23.227-2.283,23.544-2.713l.65.487A17.153,17.153,0,0,1,132.483,482.94Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_56" data-name="Group 56">
+                            <path id="Vector_134" data-name="Vector 134" d="M178.417,448.241a42.852,42.852,0,0,1-7-.528l.146-.8c.219.041,21.805,3.908,30.246-10.058l.7.423C196.883,446.568,185.72,448.241,178.417,448.241Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_57" data-name="Group 57">
+                            <path id="Vector_135" data-name="Vector 135" d="M188.182,475.629a21.884,21.884,0,0,1-5.289-.6l.219-.78c.667.187,16.476,4.469,23.309-12.015l.747.309C202.57,473.646,193.82,475.629,188.182,475.629Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_58" data-name="Group 58">
+                            <path id="Vector_136" data-name="Vector 136" d="M156.684,286.75a.279.279,0,0,1-.081-.008.4.4,0,0,1-.317-.48l1.048-5.191a.406.406,0,1,1,.8.163l-1.048,5.191A.415.415,0,0,1,156.684,286.75Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_59" data-name="Group 59">
+                            <path id="Vector_137" data-name="Vector 137" d="M160.584,288h-.049a.408.408,0,0,1-.357-.447l.788-6.621a.4.4,0,1,1,.8.089l-.788,6.621A.4.4,0,0,1,160.584,288Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_60" data-name="Group 60">
+                            <path id="Vector_138" data-name="Vector 138" d="M164.1,287.237h-.057a.414.414,0,0,1-.349-.455l.723-5.159a.42.42,0,0,1,.455-.349.415.415,0,0,1,.349.455l-.723,5.159A.4.4,0,0,1,164.1,287.237Z" fill="#446093"/>
+                        </g>
+                        <path id="Vector_139" data-name="Vector 139" d="M270,293.826c.033,5.662-1.673,8.75-5.768,9.188a20.888,20.888,0,0,1-5.541-.227C258.691,302.8,260.885,294.37,270,293.826Z" fill="#677eb2"/>
+                        <g id="Group_61" data-name="Group 61">
+                            <path id="Vector_140" data-name="Vector 140" d="M264.029,302.844a.39.39,0,0,1-.309-.146l-2.852-3.421a.4.4,0,0,1,.618-.52l2.852,3.421a.4.4,0,0,1-.049.568A.416.416,0,0,1,264.029,302.844Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_62" data-name="Group 62">
+                            <path id="Vector_141" data-name="Vector 141" d="M267.221,301.658a.389.389,0,0,1-.316-.154l-3.7-4.68a.4.4,0,0,1,.634-.5l3.7,4.679a.4.4,0,0,1-.065.569A.368.368,0,0,1,267.221,301.658Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_63" data-name="Group 63">
+                            <path id="Vector_142" data-name="Vector 142" d="M268.9,298.7a.414.414,0,0,1-.317-.146l-2.608-3.184a.4.4,0,0,1,.626-.512l2.607,3.184a.41.41,0,0,1-.056.569A.371.371,0,0,1,268.9,298.7Z" fill="#446093"/>
+                        </g>
+                        <g id="Group_64" data-name="Group 64">
+                            <path id="Vector_143" data-name="Vector 143" d="M244.507,297.482a.414.414,0,0,1-.407-.366c-1.242-13.072,4.436-16.663,4.68-16.809a.41.41,0,0,1,.561.138.4.4,0,0,1-.139.561c-.073.049-5.483,3.55-4.289,16.037a.4.4,0,0,1-.366.439Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_65" data-name="Group 65">
+                            <path id="Vector_144" data-name="Vector 144" d="M253.207,301.316a.4.4,0,0,1-.4-.341c-2.323-13.908,3.209-18.442,3.445-18.629a.41.41,0,0,1,.569.065.4.4,0,0,1-.065.569c-.057.041-5.379,4.477-3.144,17.857a.411.411,0,0,1-.333.471A.289.289,0,0,1,253.207,301.316Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_66" data-name="Group 66">
+                            <path id="Vector_145" data-name="Vector 145" d="M245.993,280.25a.408.408,0,0,1-.4-.325l-4.086-19.148a.4.4,0,0,1,.309-.479.408.408,0,0,1,.479.308l4.086,19.149a.4.4,0,0,1-.308.479A.3.3,0,0,1,245.993,280.25Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_67" data-name="Group 67">
+                            <path id="Vector_146" data-name="Vector 146" d="M251.582,277.48a24.642,24.642,0,0,1-6.369-.829.4.4,0,0,1,.235-.771c.139.04,13.617,4.029,19.385-6.2a.405.405,0,0,1,.706.4C262.119,276.14,256.164,277.48,251.582,277.48Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_68" data-name="Group 68">
+                            <path id="Vector_147" data-name="Vector 147" d="M247.309,265.546a22.058,22.058,0,0,1-3.737-.285.406.406,0,1,1,.163-.8c.122.025,11.861,2.2,17.816-6.085a.407.407,0,0,1,.658.48C258.106,264.546,251.453,265.546,247.309,265.546Z" fill="#677eb2"/>
+                        </g>
+                        <path id="Vector_148" data-name="Vector 148" d="M257.367,233.228h-1.576l-.244-8.352h1.82a1.926,1.926,0,0,1,1.926,1.926v4.493A1.926,1.926,0,0,1,257.367,233.228Z" fill="#677eb2"/>
+                        <g id="Group_69" data-name="Group 69">
+                            <path id="Vector_149" data-name="Vector 149" d="M259.292,231.294V227.5a12.5,12.5,0,0,0,7.231-13.713c-1.641-10.432-12.552-9.408-13.657-9.319v-4.111c.146-.008,15.688-1.113,17.833,12.991C272.8,227.191,259.422,231.262,259.292,231.294Z" fill="url(#radial-gradient-35)"/>
+                        </g>
+                        <path id="Vector_150" data-name="Vector 150" d="M254.7,315.818l-2.185-.178.707-8.726,2.185.179a2.1,2.1,0,0,1,1.926,2.258l-.366,4.55A2.111,2.111,0,0,1,254.7,315.818Z" fill="#677eb2"/>
+                        <g id="Group_70" data-name="Group 70">
+                            <g id="Group_71" data-name="Group 71">
+                                <path id="Vector_151" data-name="Vector 151" d="M323.528,464.431c-15.312,3.629-27.735,2.891-37.17-2.254-11.752-6.4-18.335-19.592-19.023-38.14-.545-14.7,4.109-31.139,8.211-45.645,2.923-10.319,5.68-20.073,6.217-27.814.945-13.558-1.73-23.611-7.956-29.875-7.4-7.463-17.524-6.935-17.622-6.929l-.278-4.2c.485-.032,12.051-.694,20.841,8.111,7.15,7.164,10.248,18.336,9.216,33.183-.567,8.174-3.384,18.134-6.365,28.668-4.021,14.211-8.58,30.311-8.059,44.348.443,11.843,3.717,27.456,16.832,34.6,17.439,9.5,48.206,1.719,88.961-22.508l2.151,3.615Q347.092,458.852,323.528,464.431Z" fill="#677eb2"/>
+                            </g>
+                            <g id="Group_72" data-name="Group 72">
+                                <g id="Group_73" data-name="Group 73">
+                                    <path id="Vector_152" data-name="Vector 152" d="M271.6,318.145a.2.2,0,0,1-.243-.142,2.305,2.305,0,0,1,1.708-2.8.2.2,0,0,1,.131.378,1.88,1.88,0,0,0-1.451,2.3.2.2,0,0,1-.141.251C271.606,318.144,271.6,318.145,271.6,318.145Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_74" data-name="Group 74">
+                                    <path id="Vector_153" data-name="Vector 153" d="M285.708,344.5a.225.225,0,0,1-.166-.027,2.348,2.348,0,0,0-1.839-.541l-.04.009a1.893,1.893,0,0,0-1.089.793.2.2,0,0,1-.349-.2,2.292,2.292,0,0,1,1.346-.978l.048-.011a2.731,2.731,0,0,1,2.164.605.2.2,0,0,1,.05.281A.274.274,0,0,1,285.708,344.5Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_75" data-name="Group 75">
+                                    <path id="Vector_154" data-name="Vector 154" d="M280.818,373.862a.208.208,0,0,1-.237-.119,1.825,1.825,0,0,0-1.173-1.216,2.34,2.34,0,0,0-1.757.55.205.205,0,0,1-.266-.313,2.726,2.726,0,0,1,2.112-.634,2.213,2.213,0,0,1,1.456,1.458.209.209,0,0,1-.111.269Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_76" data-name="Group 76">
+                                    <path id="Vector_155" data-name="Vector 155" d="M271.978,408.751a.207.207,0,0,1-.225-.105c-.58-1.107-1.556-.859-2.347-.529-.19.078-.287.126-.4.036a.222.222,0,0,1-.081-.2.213.213,0,0,1,.227-.171.6.6,0,0,0,.1-.04,2.011,2.011,0,0,1,2.866.715.2.2,0,0,1-.086.271C272.008,408.736,271.994,408.747,271.978,408.751Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_77" data-name="Group 77">
+                                    <path id="Vector_156" data-name="Vector 156" d="M273.427,447.74a.067.067,0,0,1-.042,0,.2.2,0,0,1-.206-.2,1.47,1.47,0,0,1,.514-1.074,2.81,2.81,0,0,1,2.4-.351.2.2,0,1,1-.072.4,2.563,2.563,0,0,0-2.06.255,1.074,1.074,0,0,0-.38.758A.2.2,0,0,1,273.427,447.74Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_78" data-name="Group 78">
+                                    <path id="Vector_157" data-name="Vector 157" d="M305.721,465.956a.2.2,0,0,1-.2-.069,2.68,2.68,0,0,1-.6-1.7,1.386,1.386,0,0,1,.55-.957.2.2,0,0,1,.25.316.97.97,0,0,0-.4.687,2.3,2.3,0,0,0,.507,1.4.2.2,0,0,1-.034.284A.1.1,0,0,1,305.721,465.956Z" fill="#374e77"/>
+                                </g>
+                                <g id="Group_79" data-name="Group 79">
+                                    <path id="Vector_158" data-name="Vector 158" d="M346.866,455.774a.12.12,0,0,1-.075,0,1.458,1.458,0,0,1-.934-.6,2.507,2.507,0,0,1-.279-1.987.2.2,0,1,1,.4.072,2.171,2.171,0,0,0,.2,1.663,1.064,1.064,0,0,0,.663.436.2.2,0,0,1,.17.227A.188.188,0,0,1,346.866,455.774Z" fill="#374e77"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group_80" data-name="Group 80">
+                            <path id="Vector_159" data-name="Vector 159" d="M260.381,204.964a.2.2,0,0,1-.2-.147,2.17,2.17,0,0,1,.236-1.665,1.87,1.87,0,0,1,1.479-.707.193.193,0,0,1,.219.187.2.2,0,0,1-.187.219,1.507,1.507,0,0,0-1.178.537,1.823,1.823,0,0,0-.179,1.332.2.2,0,0,1-.146.252C260.422,204.956,260.406,204.964,260.381,204.964Z" fill="#526170"/>
+                        </g>
+                        <g id="Group_81" data-name="Group 81">
+                            <path id="Vector_160" data-name="Vector 160" d="M267.124,214.356a.129.129,0,0,1-.057-.009.205.205,0,0,1-.138-.251,1.755,1.755,0,0,1,.9-1,2.965,2.965,0,0,1,2.413.138.206.206,0,1,1-.154.382,2.622,2.622,0,0,0-2.08-.154,1.311,1.311,0,0,0-.691.755A.2.2,0,0,1,267.124,214.356Z" fill="#526170"/>
+                        </g>
+                        <g id="Group_82" data-name="Group 82">
+                            <path id="Vector_161" data-name="Vector 161" d="M267.563,225.1a.205.205,0,0,1-.2-.2,1.038,1.038,0,0,0-.349-.788,3.207,3.207,0,0,0-2.031-.455.193.193,0,0,1-.22-.179.2.2,0,0,1,.179-.219,3.6,3.6,0,0,1,2.34.553,1.434,1.434,0,0,1,.487,1.08.2.2,0,0,1-.2.2Z" fill="#526170"/>
+                        </g>
+                        <g id="Group_83" data-name="Group 83">
+                            <path id="Vector_162" data-name="Vector 162" d="M125.561,236.818a1.746,1.746,0,0,1-1.194-.479.408.408,0,1,1,.561-.593.921.921,0,1,0,1.226-1.373l-1.876-1.584a.411.411,0,0,1-.049-.577.418.418,0,0,1,.577-.049l1.876,1.585a1.74,1.74,0,0,1,.106,2.551A1.7,1.7,0,0,1,125.561,236.818Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_84" data-name="Group 84">
+                            <path id="Vector_163" data-name="Vector 163" d="M128.112,235.372a2.315,2.315,0,0,1-1.527-.568l-.666-.626a.408.408,0,1,1,.56-.593l.658.618a1.521,1.521,0,0,0,2.5-1.26,1.492,1.492,0,0,0-.537-1.048l-3-2.6a.409.409,0,0,1,.537-.618l3,2.6a2.3,2.3,0,0,1,.812,1.609,2.334,2.334,0,0,1-.585,1.714A2.413,2.413,0,0,1,128.112,235.372Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_85" data-name="Group 85">
+                            <path id="Vector_164" data-name="Vector 164" d="M130.346,232.155a2.509,2.509,0,0,1-1.658-.625l.22-.349.268-.309a1.715,1.715,0,0,0,2.47-.122,1.722,1.722,0,0,0,.414-1.251,1.7,1.7,0,0,0-.6-1.178l-2.527-2.129a.4.4,0,1,1,.52-.617l2.527,2.128a2.529,2.529,0,0,1,.276,3.583,2.518,2.518,0,0,1-1.739.869Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_86" data-name="Group 86">
+                            <path id="Vector_165" data-name="Vector 165" d="M133.247,229.085a2.35,2.35,0,0,1-1.479-.52l-.739-.6a.4.4,0,0,1,.512-.626l.739.6a1.535,1.535,0,0,0,2.023-2.307.408.408,0,0,1,.561-.593,2.358,2.358,0,0,1,.1,3.3A2.314,2.314,0,0,1,133.247,229.085Z" fill="#a7b3c1"/>
+                        </g>
+                        <g id="Group_87" data-name="Group 87">
+                            <path id="Vector_166" data-name="Vector 166" d="M132.312,505.517a18.883,18.883,0,0,1-8.506-1.983l.4-.706a18.127,18.127,0,0,0,19.75-2.446l.511.634A18.9,18.9,0,0,1,132.312,505.517Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_88" data-name="Group 88">
+                            <path id="Vector_167" data-name="Vector 167" d="M194.088,498.645l-.114-.8c.146-.024,15.03-2.193,16.159-12.064l.8.089C209.743,496.37,194.73,498.555,194.088,498.645Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_89" data-name="Group 89">
+                            <path id="Vector_168" data-name="Vector 168" d="M165.028,231.782a.813.813,0,0,0,0-1.625A.813.813,0,0,0,165.028,231.782Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_90" data-name="Group 90">
+                            <path id="Vector_169" data-name="Vector 169" d="M297.273,269.08a.813.813,0,0,0,0-1.625A.813.813,0,0,0,297.273,269.08Z" fill="#677eb2"/>
+                        </g>
+                        <g id="Group_91" data-name="Group 91">
+                            <path id="Vector_170" data-name="Vector 170" d="M181.292,203.6a31.645,31.645,0,0,0,.756,5.46l-1.568.081a2.576,2.576,0,0,1-2.7-2.437l-.439-8.644a2.578,2.578,0,0,1,2.437-2.706l2.2-.113A32.088,32.088,0,0,0,181.292,203.6Z" fill="#464f8c"/>
+                            <path id="Vector_171" data-name="Vector 171" d="M252.939,198.765l-.1,8.661a2.571,2.571,0,0,1-2.6,2.543l-2.137-.025a31.589,31.589,0,0,0,1.04-9.757,32.744,32.744,0,0,0-.463-4.038l1.722.025A2.562,2.562,0,0,1,252.939,198.765Z" fill="#464f8c"/>
+                            <g id="Group_92" data-name="Group 92">
+                                <path id="Vector_172" data-name="Vector 172" d="M249.137,200.187c.91,17.979-13.543,33.317-32.277,34.268s-34.65-12.869-35.56-30.848,13.543-33.317,32.278-34.267S248.227,182.208,249.137,200.187Z" fill="url(#radial-gradient-36)"/>
+                            </g>
+                            <path id="Vector_173" data-name="Vector 173" d="M216.559,220.587a85.3,85.3,0,0,1-24.6-1.893,4.563,4.563,0,0,1-3.241-2.925c-1.373-3.924-4.241-14.177-1.26-24.608a4.573,4.573,0,0,1,2.681-2.973,78.318,78.318,0,0,1,24.714-5.525c11.138-.56,21.009,1.747,27.086,6.345a4.57,4.57,0,0,1,1.771,3.2c.422,4.428,1.121,15.493-1.576,22.61a4.524,4.524,0,0,1-3.307,2.827A147.354,147.354,0,0,1,216.559,220.587Z" fill="#fff"/>
+                            <path id="Vector_174" data-name="Vector 174" d="M190.432,188.911c19.937-7.962,40.775-7.044,51.036.715a3.727,3.727,0,0,1,1.462,2.656c.4,4.111,1.138,15.233-1.527,22.252a3.776,3.776,0,0,1-2.746,2.348c-6.483,1.4-28.573,5.516-46.511,1.056a3.8,3.8,0,0,1-2.7-2.429c-1.414-4.046-4.152-13.982-1.243-24.137A3.794,3.794,0,0,1,190.432,188.911Z" fill="url(#radial-gradient-37)"/>
+                            <path id="Vector_175" data-name="Vector 175" d="M236.22,186.62c-.829,14.81-6.5,30.725-42.083,28.5a10.686,10.686,0,0,1-5.354-1.706c-1.413-4.817-3.055-13.348-.569-22.041a3.778,3.778,0,0,1,2.218-2.469C207.4,182.135,225.017,181.786,236.22,186.62Z" fill="url(#linear-gradient-10)"/>
+                            <path id="Vector_176" data-name="Vector 176" d="M202.236,201.024c-6.426,3.786-11.788,3.77-15.265,1.82a35.263,35.263,0,0,1,1.243-11.472,3.775,3.775,0,0,1,2.218-2.469,78.7,78.7,0,0,1,20.2-5.127C214.268,187.652,212.042,195.248,202.236,201.024Z" fill="url(#linear-gradient-11)"/>
+                            <path id="Vector_177" data-name="Vector 177" d="M191.87,212.885c-3.583-9.14-1.983-21.87,2.258-21.537,1.755.138-.772,4.541-1.925,9.749C191.171,205.776,191.87,212.885,191.87,212.885Z" fill="url(#linear-gradient-12)"/>
+                        </g>
+                    </g>
+                    <g id="Group_35-2" data-name="Group 35">
+                        <path id="Ellipse_21" data-name="Ellipse 21" d="M107.674,260.207a9.4,9.4,0,1,1-6.837-11.728A9.6,9.6,0,0,1,107.674,260.207Z" fill="none" stroke="#677eb2" stroke-linecap="round" stroke-width="2.096"/>
+                        <path id="Line_1" data-name="Line 1" d="M105.777,270.208l3.974,7.075" fill="none" stroke="#677eb2" stroke-linecap="round" stroke-width="2.096"/>
+                    </g>
+                    <g id="Group_93" data-name="Group 93">
+                        <g id="Group_94" data-name="Group 94">
+                            <path id="Vector_178" data-name="Vector 178" d="M143.441,203.112a20.532,20.532,0,1,1,20.532-20.532A20.556,20.556,0,0,1,143.441,203.112Zm0-40.158a19.626,19.626,0,1,0,19.627,19.626A19.649,19.649,0,0,0,143.441,162.954Z" fill="#677eb2"/>
+                        </g>
+                        <path id="Vector_179" data-name="Vector 179" d="M143.442,194.856a12.275,12.275,0,1,0-12.275-12.275A12.275,12.275,0,0,0,143.442,194.856Z" fill="#ffca5f"/>
+                        <g id="Group_95" data-name="Group 95">
+                            <g id="Group_96" data-name="Group 96">
+                                <path id="Vector_180" data-name="Vector 180" d="M139.522,181.6a1.441,1.441,0,1,0-1.114-1.4A1.284,1.284,0,0,0,139.522,181.6Z" fill="#3f3f3f"/>
+                                <path id="Vector_181" data-name="Vector 181" d="M147.352,181.6a1.441,1.441,0,1,0-1.113-1.4A1.285,1.285,0,0,0,147.352,181.6Z" fill="#3f3f3f"/>
+                            </g>
+                            <g id="Group_97" data-name="Group 97">
+                                <path id="Vector_182" data-name="Vector 182" d="M143.27,189.234a8.546,8.546,0,0,1-5.921-2.616.447.447,0,0,1,.045-.634.458.458,0,0,1,.643.045c.19.218,4.635,5.142,10.863-.045a.45.45,0,1,1,.58.688A9.672,9.672,0,0,1,143.27,189.234Z" fill="#3f3f3f"/>
+                            </g>
+                        </g>
+                    </g>
+                    <path id="Vector_183" data-name="Vector 183" d="M93.882,207.742l-.105-.021c-2.936-.635-5.24-2.123-6.315-4.082a4.51,4.51,0,0,1-.359-3.761,3.026,3.026,0,0,1,2.9-2.106,3.681,3.681,0,0,1,3.025,1.728,4.362,4.362,0,0,1,1.732-2.151,3.026,3.026,0,0,1,2.567-.135,3.314,3.314,0,0,1,2.248,3.315,8.308,8.308,0,0,1-5.6,7.172Z" fill="#ff739d"/>
+                    <path id="Vector_184" data-name="Vector 184" d="M297.61,290.39l-4.968-4.968,4.968-4.968,4.968,4.968Zm-3.735-4.968,3.735,3.726,3.735-3.726-3.735-3.735Z" fill="#677eb2"/>
+                    <path id="Vector_185" data-name="Vector 185" d="M98.447,315.056l-4.968-4.968,4.968-4.968,4.968,4.968Zm-3.726-4.968,3.734,3.735,3.735-3.735-3.735-3.735Z" fill="#677eb2"/>
+                    <g id="Group_32-2" data-name="Group 32">
+                        <path id="Vector_186" data-name="Vector 186" d="M280.583,185.491l-1.736,5.852a1.912,1.912,0,0,1-2.38,1.291l-5.339-1.584a1.912,1.912,0,0,1-1.291-2.38l1.651-5.566a13.811,13.811,0,0,0,3.929,1.885A13.538,13.538,0,0,0,280.583,185.491Z" fill="url(#radial-gradient-38)"/>
+                        <path id="Vector_187" data-name="Vector 187" d="M274.6,193.7l-2.5-.741a1.541,1.541,0,0,1-1.042-1.919l5.467,1.622A1.557,1.557,0,0,1,274.6,193.7Z" fill="#677eb2"/>
+                        <path id="Vector_188" data-name="Vector 188" d="M279.125,190.4l-9.02-2.676-.146.493,9.019,2.676Z" fill="#677eb2"/>
+                        <path id="Vector_189" data-name="Vector 189" d="M279.751,188.293l-9.02-2.675-.146.493,9.02,2.676Z" fill="#677eb2"/>
+                        <g id="Vector_190" data-name="Vector 190">
+                            <path id="Path_1" data-name="Path 1" d="M275.417,184.989a13.618,13.618,0,1,0-9.183-16.929A13.618,13.618,0,0,0,275.417,184.989Z" fill="url(#radial-gradient-39)"/>
+                        </g>
+                        <path id="Vector_191" data-name="Vector 191" d="M273.663,183.771a.51.51,0,0,1-.347-.64l2.857-9.631a8.321,8.321,0,0,1-1.5-1.025,3.221,3.221,0,0,1-1.36-2.583,4.221,4.221,0,0,1,2.456-3.792,2.281,2.281,0,0,1,2.417.288,2.189,2.189,0,0,1,.442,2.418l-1.236,4.164a15.247,15.247,0,0,0,3.65,1.126c.526-1.809.97-3.341,1.179-4.084a2.429,2.429,0,0,1,2.1-2,3.206,3.206,0,0,1,2.916,2.078,3.976,3.976,0,0,1-.211,3.244,3.391,3.391,0,0,1-2.213,1.813,9.357,9.357,0,0,1-3.048.1c-1.254,4.3-2.8,9.584-2.8,9.584l-.987-.293s1.511-5.167,2.756-9.436a15.283,15.283,0,0,1-3.649-1.125l-2.8,9.434A.487.487,0,0,1,273.663,183.771Zm11.186-14.687a1.313,1.313,0,0,0-.455-.06c-.679.045-1.012.7-1.166,1.254-.2.723-.63,2.2-1.149,3.943a8.357,8.357,0,0,0,2.521-.1,2.3,2.3,0,0,0,1.517-1.279,2.865,2.865,0,0,0,.169-2.377A2.41,2.41,0,0,0,284.849,169.084Zm-7.682-2.118a1.619,1.619,0,0,0-1.026.093,3.228,3.228,0,0,0-1.821,2.917,2.364,2.364,0,0,0,1,1.725,7.445,7.445,0,0,0,1.13.786l1.18-3.977a1.32,1.32,0,0,0-.153-1.366A.634.634,0,0,0,277.167,166.966Z" fill="url(#linear-gradient-13)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="375" height="812" transform="translate(220.3 134)" fill="none"/>
+    </g>
+</svg>

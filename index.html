@@ -9,7 +9,7 @@
     <link href="style/home.css" rel="stylesheet">
     <link href="style/slider.css" rel="stylesheet">
     <link href="style/sliderMain.css" rel="stylesheet">
-    <link href="style/rightMenue.css" rel="stylesheet">
+    <link href="style/drawer.css" rel="stylesheet">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
     <title>Learn-App</title>
 </head>
@@ -34,25 +34,120 @@
     </header>
     <div class="d-flex flex-column w-100">
         <div id="menuToggle" class="burger_menu bg-info">
-            <input type="checkbox" />
+            <input class="input" type="checkbox" />
             <span></span>
             <span></span>
             <span></span>
 
             <ul id="menu">
-                <a href="#">
-                    <li>Home</li>
-                </a>
-                <a href="#">
-                    <li>About</li>
-                </a>
-                <a href="#">
-                    <li>Info</li>
-                </a>
-                <a href="#">
-                    <li>Contact</li>
-                </a>
 
+
+                <div class="w-75 text-center align-self-start">
+                    <img src="./assets/svg/avatar.svg" class="avatar rounded-3 profile_img" alt="">
+                    <h6 class="mt-3">Mustafa Hameed</h6>
+                    <!-- <div class="d-flex center justify-content-evenly mb-0 w-100">
+                        <div class="points_img">
+                            <img src="./assets/svg/stage_img.svg" class="points_img drowar_point_img" alt="">
+                            <p class="drawer_text mb-0"> Stage</p>
+                            <p class="drawer_text "> 6th Biology</p>
+                        </div>
+                        <div class="points_img">
+                            <img src="./assets/svg/rate1.svg" class="points_img drowar_point_img" alt="">
+                            <p class="drawer_text  mb-0"> Rate</p>
+                            <p class="drawer_text"> 01 </p>
+                        </div>
+                        <div class="points_img">
+                            <img src="./assets/svg/points.svg" class="points_img drowar_point_img" alt="">
+                            <p class="drawer_text  mb-0"> Points </p>
+                            <p class="drawer_text"> 290 </p>
+                        </div>
+                    </div>
+                    <div class="mt-0">
+                        <div class="d-flex align-items-center profile_settings_home">
+                            <img width="15rem" src="./assets/svg/avatar_outline.svg" alt="">
+                            <a href="#">
+                                <p class="m-3">Edite profile</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center profile_settings_home">
+                            <img width="15rem" src="./assets/svg/lock_outline.svg" alt="">
+                            <a href="#">
+                                <p class="m-3">Change password</p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center profile_settings_home">
+                            <img width="15rem" src="./assets/svg/star_outline_box.svg" alt="">
+                            <a href="#">
+                                <p class="m-3">My Courses</p>
+                            </a>
+                        </div>
+
+                        <div class="d-flex align-items-center profile_settings_home">
+                            <img width="15rem" src="./assets/svg/exit_outline.svg" alt="">
+                            <a href="#">
+                                <p class="m-3" style="color:#EF4E4E ;">Log Out</p>
+                            </a>
+                        </div>
+
+                    </div> -->
+
+
+                    <!-- <form class="form">
+                        <div class="d-flex flex-column align-items-start mb-2">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control form-rounded input__form " id="name"
+                                placeholder="Enter Your Name">
+                        </div>
+                        <div class="d-flex flex-column align-items-start  mb-2">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="text" class="form-control form-rounded input__form " id="name"
+                                placeholder="Enter Your Email">
+                        </div>
+                        <div class="d-flex flex-column align-items-start mb-2">
+                            <label for="exampleInputEmail1">Phone</label>
+                            <div class="input-group mb-3 form-rounded w-100">
+                                <select class="form-select form-rounded custom-select input__form"
+                                    id="inputGroupSelect01">
+                                    <option selected value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <input type="text" class="form-control form-rounded input__form input_select" id="name"
+                                    </div>
+                            </div>
+                            <button type="submit" class="btn-grad center mt-4">Send</button>
+
+                    </form> -->
+
+                    <div class="w3-container">
+                        <h2>Tabs in a Grid</h2>
+
+                        <div class="w3-row">
+                            <a href="javascript:void(0)" onclick="openCity(event, 'onProgress');">
+                                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">On Progress
+                                </div>
+                            </a>
+                            <a href="javascript:void(0)" onclick="openCity(event, 'completed');">
+                                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Completed
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div id="London" class="w3-container city" style="display:none">
+                            <h2>London</h2>
+                            <p>London is the capital city of England.</p>
+                        </div>
+
+                        <div id="Paris" class="w3-container city" style="display:none">
+                            <h2>Paris</h2>
+                            <p>Paris is the capital of France.</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
             </ul>
         </div>
         <button type="button" class="burger_menu  text-white language_btn mt-1">AR <img
@@ -311,6 +406,21 @@
     </div>
 </body>
 
+<script>
+    function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
+    }
+</script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/jquery.hislide.js"></script>
 <script type="text/javascript" src="js/jquery.hislideSlider.js"></script>

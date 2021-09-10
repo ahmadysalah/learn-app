@@ -8,7 +8,7 @@
     user-select: none;
 }
 
-#menuToggle input {
+#menuToggle .input {
     display: block;
     width: 100px;
     height: 32px;
@@ -51,33 +51,32 @@
     transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked~span {
+#menuToggle .input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
 }
 
-#menuToggle input:checked~span:nth-last-child(3) {
+#menuToggle .input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked~span:nth-last-child(2) {
+#menuToggle .input:checked~span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
 }
 
 #menu {
     position: absolute;
-    width: 500px;
+    width: 25rem;
     margin: -100px 0 0 0;
-    padding: 50px;
-    padding-top: 125px;
+    padding: 3rem 2rem 5rem 2rem;
     margin-top: -50px;
     border-radius: 25px;
     right: -100px;
-    background-image: url("../assets/img/image-bg.png");
-    background-repeat: repeat-y;
+    background-color: #03004A;
+    /* background-repeat: repeat-y; */
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -91,9 +90,41 @@
     font-size: 22px;
 }
 
-#menuToggle input:checked~ul {
+#menuToggle .input:checked~ul {
     transform: none;
     opacity: 1;
+}
+
+.profile_img {
+    width: 5rem;
+    margin: 0 auto;
+}
+
+.drowar_point_img {
+    width: 3rem;
+}
+
+.drawer_text {
+    font-size: .8rem;
+}
+
+.profile_settings_home {
+    border: 1px solid #313057;
+    padding: .5rem;
+    border-radius: .5rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+.input_select {
+    width: 8rem !important
+}
+
+.input__form {
+    height: 2rem;
+    border: 1px solid #313057;
+    background-color: #03004A
 }
 
 @media screen and (max-width: 768px) {

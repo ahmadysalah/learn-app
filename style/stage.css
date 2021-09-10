@@ -1,7 +1,8 @@
 .stage {
-    background-image: url(../assets/img/stage_bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    /* background-image: url(../assets/img/stage_bg.png); */
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .return_button {
@@ -17,7 +18,7 @@
 }
 
 .course_container {
-    margin-top: -3% !important;
+    margin-top: -5% !important;
 }
 
 .course_img {
@@ -77,6 +78,11 @@ p {
 
 .table_index {
     margin-left: 0 3%;
+    margin-top: 1rem;
+}
+
+.aboutus_img {
+    width: 30rem;
 }
 
 .lesson_embed {
@@ -99,7 +105,8 @@ p {
 }
 
 .lesson {
-    border-bottom: .01px solid #707070 !important
+    border-bottom: .01px solid #707070 !important;
+    padding: 0 2.5rem;
 }
 
 .video_stream {
@@ -224,16 +231,20 @@ p {
     font-size: .9rem;
     font-weight: lighter !important;
     color: rgb(221, 216, 216);
-    width: 13rem;
+    width: 14rem;
 }
 
 @media only screen and (max-width: 600px) {
     .stage {
         background-image: url(../assets/svg/mobile_bg.svg);
         background-repeat: no-repeat;
-        background-size: 100%
+        background-size: 100%;
+        height: auto
     }
     .course_container {
         margin-top: 1rem !important;
+    }
+    .aboutus_img {
+        width: 15rem;
     }
 }

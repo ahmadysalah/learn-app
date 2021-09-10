@@ -12,13 +12,6 @@ body {
     flex-wrap: wrap;
 }
 
-.footerImg {
-    width: 100%;
-    bottom: -4.5rem;
-    position: absolute;
-    overflow-x: hidden;
-}
-
 .signIn_img {
     width: 50rem;
     height: 50rem

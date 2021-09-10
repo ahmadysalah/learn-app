@@ -10,12 +10,12 @@
 .sliderMain {
     margin-top: 2rem;
 }
-.hi-slider_main .hi-next:hover,
-.hi-slider_main .hi-prev:hover {
+
+.hi-slider_main .hi-next:hover, .hi-slider_main .hi-prev:hover {
     opacity: 1;
 }
 
-.hi-slider_main > ul {
+.hi-slider_main>ul {
     list-style: none;
     position: relative;
     width: 100%;
@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 
-.hi-slider_main > ul > li {
+.hi-slider_main>ul>li {
     /* overflow: hidden; */
     position: absolute;
     z-index: 0;
@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 
-.hi-slider_main > ul > li > img {
+.hi-slider_main>ul>li>img {
     width: 100%;
     height: 100%;
     padding: 5%;
